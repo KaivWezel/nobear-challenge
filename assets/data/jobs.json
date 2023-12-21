@@ -1,0 +1,2195 @@
+{
+	"took": 2,
+	"timed_out": false,
+	"_shards": { "total": 1, "successful": 1, "failed": 0 },
+	"hits": {
+		"total": 2603,
+		"max_score": null,
+		"hits": [
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P093882",
+				"_score": null,
+				"_timestamp": 1703152826070,
+				"_source": {
+					"published_at": "2023-11-06T23:00:00.000Z",
+					"created_at": "2023-11-01T13:04:20.000Z",
+					"updated_at": "2023-11-01T13:08:25.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": { "channels": ["emmen", "machineoperator"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Emmen",
+						"location": "Emmen",
+						"street": "Marktplein 138",
+						"postcode": "7811BA",
+						"telephone": "0591203000",
+						"callback_id": "61d5c3755a3c18002e31007d",
+						"email": "emmen@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Mark Wubs",
+						"first_name": "Mark",
+						"last_name": "Wubs",
+						"telephone": "0591-203000",
+						"email": "mark.wubs@pro-industry.nl",
+						"title": "Senior Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI000000adVt/F",
+							"path": "/sfcontacts/323c5e948b25342f38788f9e2d0f645e.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000WVYXYA4",
+						"parent_id": "a0w3V000001Q7YcQAK",
+						"number": "P093882",
+						"date": "2023-11-06T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["5 ploegendienst"],
+						"years_experience": { "min": 3, "max": 5 },
+						"salary_indication": { "min": 3000, "max": 3500 },
+						"driving_license": "B",
+						"hours": { "min": 33.6, "max": 33.6 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 2",
+						"hard_criteria": [
+							{ "es_structured": true, "type": "Years of experience", "value": "1 - 3", "text": "1 - 3" },
+							{ "es_structured": true, "type": "Hours per week", "value": "32 - 40", "text": "32 - 40" },
+							{ "es_structured": true, "type": "Category", "value": "Procesoperator", "text": "Procesoperator" },
+							{
+								"es_structured": true,
+								"type": "Education level",
+								"value": "LBO - VMBO - MAVO",
+								"text": "LBO - VMBO - MAVO"
+							},
+							{
+								"es_structured": true,
+								"type": "Sector",
+								"value": "Voedingsmiddelenindustrie",
+								"text": "Voedingsmiddelenindustrie"
+							},
+							{
+								"es_structured": true,
+								"type": "Sector",
+								"value": "Overige industrieën",
+								"text": "Overige industrieën"
+							},
+							{
+								"es_structured": true,
+								"type": "Sector",
+								"value": "Plantaardige oliën en vetten",
+								"text": "Plantaardige oliën en vetten"
+							},
+							{ "es_structured": true, "type": "Sector", "value": "Afvalverwerking", "text": "Afvalverwerking" },
+							{ "es_structured": true, "type": "Shiftwork", "value": "5 ploegendienst", "text": "5 ploegendienst" }
+						]
+					},
+					"igb": { "name": "Proces Operator" },
+					"website": {
+						"label": null,
+						"title": "5-ploegendienst operator in Emmen",
+						"subtitle": "Wil jij je ontplooien binnen de voedingsmiddelenindustrie?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000WVYX&feoid=00N0N00000Ft8Bd&refid=0EMMI000004T5re",
+									"path": "/sfjobs/f47e67bcd038520b6a6c6c26b2472f12.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Emmen", "place": "Emmen", "province": "Drenthe" },
+						"intro": "Ben jij een gedreven operator die goed wil verdienen en op zoek is naar een baan vol variatie? Wij hebben momenteel een top vacature beschikbaar in de 5-ploegendienst. Je kan een uitstekend startsalaris gaan verdienen wat kan oplopen tot € 3.500,- bruto per maand inclusief ploegentoeslag. Binnen dit bedrijf wordt gelatine en collageen geproduceerd uit varkenshuiden. De afgelopen jaren is de productiecapaciteit met ruim 25% vergroot en er wordt volop gewerkt aan verdere uitbreiding. Is je interesse gewekt, lees dan snel verder!  ",
+						"description": "Naast het bewaken van het productieproces ben je verantwoordelijk voor het optimaal laten verlopen van het productieproces. Jij weet de machines zo in en af te stellen dat afwijkingen en storingen eventueel voorkomen kunnen worden. Hierdoor ben je samen met je collega´s instaat om de juiste productie te draaien conform planning. Tot jouw takenpakket behoren de volgende werkzaamheden:<br /><ul><li>Bewaken van het productieproces vanuit de controlekamer of langs de lijn.</li><li>Instellen, bedienen en ombouwen van productiemachines.</li><li>Uitvoeren van kwaliteitscontroles.</li><li>Documenteren van afwijkingen, storingen en de gedraaide productie.</li><li>Voorkomen, verhelpen en analyseren van storingen.</li></ul> ",
+						"requirements": "Om in aanmerking te komen voor deze uitdagende vacature is het belangrijk dat je een echte teamspeler bent die over goede communicatieve vaardigheden beschikt. Ervaring als procesoperator is gewenst, echter kan je ook opgeleid worden tot procesoperator. Het is belangrijk dat je over een leergierige en pro-actieve houding beschikt om de werkzaamheden snel eigen te kunnen maken. Verder beschik jij over de volgende kwaliteiten:<br /><ul><li>Je bent in het bezit van een afgerond mbo niveau 2/3 diploma, procesoperator gewenst.</li><li>Je beschikt over aantoonbare technische affiniteit.</li><li>Je bent een echte teamspeler die over goede communicatieve vaardigheden beschikt.</li><li>Je beschikt over een leergierige en pro-actieve houding.</li><li>Je gaat nauwkeurig te werk en hecht waarde aan kwaliteit.</li></ul><br />",
+						"benefits": "Bij deze veelzijdige en uitdagende functie in de modernste gelatinefabriek van Europa horen ook arbeidsvoorwaarden die passen bij een procesoperator, namelijk:<br /><ul><li>Een uitstekend starsalaris tot wel € 3.500,- bruto per maand inclusief 29,5% ploegentoeslag.</li><li>Volop doorgroeimogelijkheden en ruimte voor persoonlijke ontwikkeling.</li><li>Een reiskostenvergoeding van € 0,21 cent per kilometer.</li><li>25 vakantiedagen per jaar en 8,33% vakantiegeld.</li><li>Gemiddeld werk jij 33,6 uur per week in de 5-ploegendienst.</li><li>Werktijden: 06:00 - 14:00 / 14:00 - 22:00 / 22:00 - 06:00.</li></ul>",
+						"sector": ["voedingsmiddelen"],
+						"category": ["Machineoperator"],
+						"slug": "5-ploegendienst-operator-in-emmen-P093882"
+					}
+				},
+				"sort": ["5-ploegendienst operator in Emmen"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P095963",
+				"_score": null,
+				"_timestamp": 1703152826083,
+				"_source": {
+					"published_at": "2023-12-11T23:00:00.000Z",
+					"created_at": "2023-12-07T16:05:41.000Z",
+					"updated_at": "2023-12-07T16:09:28.000Z",
+					"status": { "exclusive": true, "internal": false },
+					"campaign": { "channels": ["exclusive", "harlingen", "machineoperator"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Leeuwarden",
+						"location": "Leeuwarden",
+						"street": "Schrans 9",
+						"postcode": "8932NA",
+						"telephone": "058 - 202 2000",
+						"callback_id": "61682e77fafcd9002ee8e9bd",
+						"email": "leeuwarden@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Bjorn van der Veen",
+						"first_name": "Bjorn",
+						"last_name": "van der Veen",
+						"telephone": "058 - 202 2000",
+						"email": "bjorn.vanderveen@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/005/F",
+							"path": "/sfcontacts/08515c551e24385d5a99f3d8df0bc32d.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000Zg1BYAS",
+						"parent_id": "a0w3V000000ZFVmQAO",
+						"number": "P095963",
+						"date": "2023-12-11T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["3 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 2300, "max": 2700 },
+						"driving_license": "B",
+						"hours": { "min": 37.5, "max": 37.5 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 2",
+						"hard_criteria": [
+							{ "es_structured": true, "type": "Hours per week", "value": "32 - 40", "text": "32 - 40" },
+							{ "es_structured": true, "type": "Shiftwork", "value": "3 ploegendienst", "text": "3 ploegendienst" },
+							{
+								"es_structured": true,
+								"type": "Education level",
+								"value": "HAVO - VWO - MBO",
+								"text": "HAVO - VWO - MBO"
+							},
+							{ "es_structured": true, "type": "Category", "value": "Productie", "text": "Productie" },
+							{ "es_structured": true, "type": "Years of experience", "value": "1 - 3", "text": "1 - 3" },
+							{ "es_structured": true, "type": "Sector", "value": "Overige industrieën", "text": "Overige industrieën" }
+						]
+					},
+					"igb": { "name": "Productie medewerker" },
+					"website": {
+						"label": null,
+						"title": "Aankomend operator",
+						"subtitle": "Ben jij technische en wil jij aan de slag als operator?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000Zg1B&feoid=00N0N00000Ft8Bd&refid=0EMMI000004whYY",
+									"path": "/sfjobs/a918c606ca299ba53cf79982cd6f95f7.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Harlingen", "place": "Harlingen", "province": "Friesland" },
+						"intro": "Heb je een passie voor techniek en wil je de wereld van operators betreden? Dit is jouw kans! We zoeken enthousiaste individuen met een technische achtergrond die klaar zijn om het vak van operator te leren en zich voor langere tijd aan een werkgever willen binden. In de rol van aankomend operator krijg je de mogelijkheid om verschillende flexibele verpakkingen te bedrukken met de perfecte kleuren en tekst. Je zult verantwoordelijk zijn voor het aanleveren van rollen folie, de juiste inkt en geschikte drukvormen aan de machines. Het instellen van de machines, het controleren van de kwaliteit en het oplossen van kleine storingen behoren ook tot jouw taken. Deze uitdagende positie biedt een gunstige 3-ploegendienst met afwisselende werktijden. Wil je werken in een 3-ploegendienst en een startsalaris verdienen tussen de €2.300,- en €2.700,- bruto inclusief ploegentoeslag? Aarzel dan niet en solliciteer snel!",
+						"description": "Jouw taken zullen onder andere zijn:<ul><li>Het bedienen van machines om een soepele productie te waarborgen.</li><li>Het in- en ombouwen van machines voor verschillende productieruns.</li><li>Het bevoorraden van machines met inkt, rollen folie en drukvormen voor optimale productiekwaliteit.</li><li>Het verhelpen van kleine storingen om de continuïteit van de productie te waarborgen.</li><li>Het uitvoeren van administratieve werkzaamheden om nauwkeurige productieregistraties bij te houden.</li><li>Het controleren van het eindproduct op afwijkingen om te garanderen dat het voldoet aan de gestelde kwaliteitseisen.</li></ul>",
+						"requirements": "Wat we van jou verwachten:<ul><li>Een afgeronde mbo-opleiding, bij voorkeur in de richting van techniek.</li><li>Aantoonbare ervaring in de maakindustrie.</li><li>Affiniteit met techniek.</li><li>Een proactieve houding en de bereidheid om verantwoordelijkheden te nemen in het productieproces.</li><li>Beschikbaarheid voor werk in een 3-ploegendienst.</li></ul>",
+						"benefits": "Wat je van ons kunt verwachten:<ul><li>Een startsalaris tussen de €2.300,- en €2.700,- bruto, inclusief ploegentoeslag.</li><li>De mogelijkheid om jezelf te ontwikkelen door middel van trainingen.</li><li>Een reiskostenvergoeding van €0,21 per kilometer.</li><li>Bij goed functioneren bestaat de kans op een vaste aanstelling!</li></ul>Ben jij de gedreven operator die we zoeken? Reageer dan direct!",
+						"sector": ["grafisch en drukkerij"],
+						"category": ["Machineoperator"],
+						"slug": "aankomend-operator-P095963"
+					}
+				},
+				"sort": ["Aankomend operator"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P095918",
+				"_score": null,
+				"_timestamp": 1703152826083,
+				"_source": {
+					"published_at": "2023-12-06T23:00:00.000Z",
+					"created_at": "2023-12-07T08:00:43.000Z",
+					"updated_at": "2023-12-07T08:42:26.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": { "channels": ["emmen", "productie"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Emmen",
+						"location": "Emmen",
+						"street": "Marktplein 138",
+						"postcode": "7811BA",
+						"telephone": "0591203000",
+						"callback_id": "61d5c3755a3c18002e31007d",
+						"email": "emmen@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Mitchel de Vries",
+						"first_name": "Mitchel",
+						"last_name": "de Vries",
+						"telephone": "0651937948",
+						"email": "mitchel.devries@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI000000QrK1/F",
+							"path": "/sfcontacts/7b3890fa2a3ca9b697a4d4df0beaf6bd.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000Zd9lYAC",
+						"parent_id": "a0wMI000000Zd89YAC",
+						"number": "P095918",
+						"date": "2023-12-06T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Starter",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["dagdienst"],
+						"years_experience": null,
+						"salary_indication": { "min": 2350, "max": 2650 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 40, "max": 40 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 1",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Productie medewerker" },
+					"website": {
+						"label": null,
+						"title": "Allround CNC frezer / Operator",
+						"subtitle": "Ben jij allround inzetbaar in de productie en heb je kennis van CNC?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000Zd9l&feoid=00N0N00000Ft8Bd&refid=0EMMI000004wAsm",
+									"path": "/sfjobs/02b50d2c5af6221b739651dfc7f4bfe0.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "regio Drenthe", "place": "Emmen", "province": "Drenthe" },
+						"intro": "Ben jij een beginnende CNC-frezer met technisch inzicht, goed overzicht in een drukke planning, nauwkeurigheid en vermijd je snel dezelfde fouten? Heb je ervaring met het werken met CNC-gestuurde machines en enige technische affiniteit? Daarnaast zal je ook verantwoordelijk zijn voor het assembleren van poedercoat installaties, zodat deze als bouwpakket naar de klanten kunnen worden verzonden.\n\nDan nodigen wij jou van harte uit om verder te lezen.",
+						"description": "Als CNC-frezer ben je verantwoordelijk voor het bedienen en onderhouden van onze geavanceerde Homag CNC-freesmachine, waarmee hoogwaardige poedercoatcabines worden geproduceerd. Kort gezegd, je zult kunststof behuizingen frezen die gebruikt worden in het poedercoatproces.<br><br>Wat ga je precies doen?<br><ul><li>Bedienen van de Homag CNC-freesmachine (5-assig);</li><li>Laden van materiaal, gereedschap en programma's;</li><li>Assembleren van de gefreesde kunststof producten;</li><li>Controleren en meten van producten om de kwaliteit te waarborgen;</li><li>Onderhoud en reiniging van de machines.</li></ul>",
+						"requirements": "Wat zijn onze verwachtingen van jou?<br><ul><li>Ervaring als CNC-operator is een pluspunt, maar niet noodzakelijk;</li><li>Technisch inzicht en bereidheid om te leren;</li><li>Nauwkeurigheid en samenwerkingsvaardigheden;</li><li>Het vermogen om te leren van eventuele gemaakte fouten;</li><li>Verantwoordelijkheidsgevoel en nauwkeurigheid bij het afronden van het eindproduct.</li></ul>",
+						"benefits": "Wat bieden wij jou?<br><ul><li>Salaris tot wel € 2.650,- bruto per maand;</li><li>25 vakantiedagen en 8,33% vakantiegeld;</li><li>Mogelijkheid op een vast contract bij goed functioneren;</li><li>Uitdagende functie in een groeiend bedrijf;</li><li>Gezellige collega's en regelmatige bedrijfsfeestjes (borrels, uitjes, Sinterklaasfeest, zomer-bbq, etc.).</li></ul>",
+						"sector": ["hout en isolatiemateriaal", "machines en assemblage", "rubber en kunststof"],
+						"category": ["Productie"],
+						"slug": "allround-cnc-frezer-operator-P095918"
+					}
+				},
+				"sort": ["Allround CNC frezer / Operator"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P095920",
+				"_score": null,
+				"_timestamp": 1703152826083,
+				"_source": {
+					"published_at": "2023-12-06T23:00:00.000Z",
+					"created_at": "2023-12-07T08:15:51.000Z",
+					"updated_at": "2023-12-07T08:42:34.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": { "channels": ["emmen", "productie"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Emmen",
+						"location": "Emmen",
+						"street": "Marktplein 138",
+						"postcode": "7811BA",
+						"telephone": "0591203000",
+						"callback_id": "61d5c3755a3c18002e31007d",
+						"email": "emmen@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Mitchel de Vries",
+						"first_name": "Mitchel",
+						"last_name": "de Vries",
+						"telephone": "0651937948",
+						"email": "mitchel.devries@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI000000QrK1/F",
+							"path": "/sfcontacts/7b3890fa2a3ca9b697a4d4df0beaf6bd.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000ZdEbYAK",
+						"parent_id": "a0wMI000000Zd89YAC",
+						"number": "P095920",
+						"date": "2023-12-06T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Starter",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["dagdienst"],
+						"years_experience": null,
+						"salary_indication": { "min": 2350, "max": 2650 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 40, "max": 40 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 1",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Productie medewerker" },
+					"website": {
+						"label": null,
+						"title": "Allround CNC frezer / Operator",
+						"subtitle": "Ben jij allround inzetbaar in de productie en heb je kennis van CNC?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000ZdEb&feoid=00N0N00000Ft8Bd&refid=0EMMI000004wLrN",
+									"path": "/sfjobs/777df389aa4c766c5695e4a5ab5e1e4f.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "regio Drenthe", "place": "Emmen", "province": "Drenthe" },
+						"intro": "Ben jij een beginnende CNC-frezer met technisch inzicht, goed overzicht in een drukke planning, nauwkeurigheid en vermijd je snel dezelfde fouten? Heb je ervaring met CNC-gestuurde machines en enige technische affiniteit? Daarnaast ben je ook verantwoordelijk voor het assembleren van poedercoatinstallaties, zodat ze als bouwpakket naar de klanten kunnen worden verzonden.\n\nWij nodigen jou van harte uit om verder te lezen en meer te ontdekken.",
+						"description": "Als CNC-frezer ben je verantwoordelijk voor het bedienen en onderhouden van onze geavanceerde Homag CNC-freesmachine. Met deze machine worden hoogwaardige poedercoatcabines geproduceerd. In het kort gezegd zul je kunststof behuizingen frezen die gebruikt worden in het poedercoatproces.<br><br>Wat zijn je taken?<br><ul><li>Bedienen van de Homag CNC-freesmachine (5-assig);</li><li>Laden van materiaal, gereedschap en programma's;</li><li>Assembleren van de gefreesde kunststof producten;</li><li>Controleren en meten van producten om de kwaliteit te waarborgen;</li><li>Onderhoud en reiniging van de machines.</li></ul>",
+						"requirements": "Wat verwachten we van jou?<br><ul><li>Ervaring als CNC-operator is een pluspunt, maar niet vereist;</li><li>Technisch inzicht en de wil om te leren;</li><li>Nauwkeurigheid en het vermogen om goed samen te werken;</li><li>Het vermogen om te leren van eventuele fouten die gemaakt worden;</li><li>Verantwoordelijkheidsgevoel en nauwkeurigheid bij het voltooien van het eindproduct.</li></ul>",
+						"benefits": "Wat kunnen wij jou bieden?<br><ul><li>Een aantrekkelijk salaris tot wel € 2.650,- bruto per maand;</li><li>25 vakantiedagen en 8,33% vakantiegeld;</li><li>Mogelijkheid op een vast contract bij goed functioneren;</li><li>Een uitdagende functie binnen een groeiend bedrijf;</li><li>Gezellige collega's en regelmatige bedrijfsfeestjes, zoals borrels, uitjes, Sinterklaasfeest, zomer-bbq, enzovoort.</li></ul>",
+						"sector": ["hout en isolatiemateriaal", "machines en assemblage", "rubber en kunststof"],
+						"category": ["Productie"],
+						"slug": "allround-cnc-frezer-operator-P095920"
+					}
+				},
+				"sort": ["Allround CNC frezer / Operator"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P094687",
+				"_score": null,
+				"_timestamp": 1703152826058,
+				"_source": {
+					"published_at": "2023-11-16T23:00:00.000Z",
+					"created_at": "2023-11-17T08:07:47.000Z",
+					"updated_at": "2023-11-17T08:07:50.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": { "channels": ["gaanderen", "technisch overig"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Doetinchem",
+						"location": "Doetinchem",
+						"street": "Walstraat 74",
+						"postcode": "7001BV",
+						"telephone": "0314201000",
+						"email": "doetinchem@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Nidal Alakay",
+						"first_name": "Nidal",
+						"last_name": "Alakay",
+						"telephone": "0314 201 000",
+						"email": "nidal.alakay@pro-industry.nl",
+						"title": "Senior Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/7293V000000TXMo/F",
+							"path": "/sfcontacts/5d053a2dddfbadda90da343570335ade.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000Xz4jYAC",
+						"parent_id": "a0wMI000000BSdhYAG",
+						"number": "P094687",
+						"date": "2023-11-16T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["2 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 2800, "max": 3400 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 40, "max": 40 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 2",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Lasser" },
+					"website": {
+						"label": null,
+						"title": "Allround Lasser 2 ploegendienst",
+						"subtitle": "Ben jij de ervaren lasser die wij zoeken en zoek jij een baan met een hoop uitdagingen in de 2 ploegendienst?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000Xz4j&feoid=00N0N00000Ft8Bd&refid=0EM3V000002A6ug",
+									"path": "/sfjobs/e7e4d886e7c07929103138decb45b14f.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "Gaanderen", "place": "Gaanderen", "province": null },
+						"intro": "Heb jij enige ervaring binnen de metaalindustrie en wil jij graag uitgedaagd worden? Dan is dit de vacature voor jou! Het werken hier start met een idee waarbij ze meedenken met de klant. Vervolgens wordt er een duurzame, innovatieve oplossing aangeboden met een aantrekkelijke kostprijs. Doordat ze erg flexibel zijn en een totaal oplossing willen bieden aan de klant, wordt er binnen het bedrijf continu processen aangepast. Voor de metalen uitblinkers onder ons, een erg gaaf dynamisch bedrijf met tal van uitdagingen. Ben jij leergierig en werk je graag in de 2 ploegendienst? Kom dan werken voor een groeiend bedrijf met ontwikkelings- en doorgroeimogelijkheden waar je startsalaris kan oplopen tot € 3.400,- bruto per maand inclusief ploegentoeslag.",
+						"description": "Als allround lasser bestaan je werkzaamheden uit het:<ul><li>Lezen van ingewikkelde technische tekeningen voor het lassen;</li><li>Verschillende laswerkzaamheden zoals MIG/MAG en TIG;</li><li>Constructies maken aan de hand van tekeningen;</li><li>Plaatmateriaal bewerken met verschillende machines;</li><li>Uitvoeren van kwaliteitswerkzaamheden voor de maatvoering, bewerking en verbinding.</li></ul>",
+						"requirements": "Om de functie van (allround) lasser goed in te kunnen vullen, voldoe jij aan de volgende eisen:<ul><li> Je beschikt over minimaal mbo 2 werk- en denkniveau;</li><li>Je bent accuraat, praktisch ingesteld, zelfstandig en collegiaal;</li><li>Kennis over MIG/MAG en TIG lassen (certificaat of diploma is een dikke pré);</li><li>Technische tekeningen kunnen lezen;</li><li>Bereid om te werken in een 2 ploegendienst.</li></ul>",
+						"benefits": "Voor jou inzet wil je van ons natuurlijk wat terug. Zo maken we je blij:<ul><li>Een uitstekend startsalaris op basis van jouw kennis en ervaring van € 2.800,- tot wel € 3.400,- bruto per maand inclusief ploegentoeslag;</li><li>Voldoende ruimte voor ontwikkelingsmogelijkheden;</li><li>Mogelijkheden voor het kosteloos behalen van de nodige certificaten;</li><li>Een prima werksfeer bij een gezond en dynamisch bedrijf;</li><li>Bij goed functioneren uitzicht op een vaste aanstelling.</li></ul><br />Klinkt dit als dé vacature voor jou? Wacht dan niet langer en solliciteer meteen!",
+						"sector": ["metaal"],
+						"category": ["Technisch overig"],
+						"slug": "allround-lasser-2-ploegendienst-P094687"
+					}
+				},
+				"sort": ["Allround Lasser 2 ploegendienst"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P096233",
+				"_score": null,
+				"_timestamp": 1703152826075,
+				"_source": {
+					"published_at": "2023-12-17T23:00:00.000Z",
+					"created_at": "2023-12-14T09:56:44.000Z",
+					"updated_at": "2023-12-14T09:56:47.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": { "channels": ["heerhugowaard", "technische dienst"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Alkmaar",
+						"location": "Alkmaar",
+						"street": "Stationsweg 56",
+						"postcode": "1815CD",
+						"telephone": "0722012000",
+						"callback_id": "61682be1fafcd9002ee8e9a9",
+						"email": "alkmaar@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Beau Ligthart",
+						"first_name": "Beau",
+						"last_name": "Ligthart",
+						"telephone": "+31 658078702",
+						"email": "beau.ligthart@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI000000UlW9/F",
+							"path": "/sfcontacts/c0b62f2d7539998a048240ba011dd38b.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000aJwzYAE",
+						"parent_id": "a0wMI000000aAdZYAU",
+						"number": "P096233",
+						"date": "2023-12-17T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["3 ploegendienst"],
+						"years_experience": { "min": 3, "max": 5 },
+						"salary_indication": { "min": 3800, "max": 4500 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 40, "max": 40 },
+						"languages": ["Engels", "Nederlands"],
+						"education_level": "mbo niveau 4",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Monteur" },
+					"website": {
+						"label": null,
+						"title": "Allround Monteur",
+						"subtitle": "Ben jij de missend schakel in dit duurzame bedrijf?",
+						"media": { "images": [], "videos": [] },
+						"location": { "text": "omgeving Alkmaar", "place": "Alkmaar", "province": "Noord-Holland" },
+						"intro": "Ben jij een ervaren allround monteur die een essentiële rol wil vervullen binnen ons bedrijf? Als monteur streef je voortdurend naar verbetering van processen en zorg je voor snelle oplossingen bij storingen. Wil je graag werken bij een duurzaam bedrijf dat hoogwaardige producten produceert in de voedingsmiddelenindustrie? En daarbij ook nog een aantrekkelijk salaris verdienen, tot wel €4.500,- bruto per maand inclusief toeslagen? Lees dan snel verder en ontdek meer over deze vacature voor een monteur in een 3-ploegendienst!",
+						"description": "In de rol van monteur in de 3-ploegendienst ga je aan de slag met moderne installaties en apparatuur. Als allround monteur ben je verantwoordelijk voor storings-, revisie- en onderhoudswerkzaamheden. In nauwe samenwerking met je collega's van de technische dienst en de productie streven jullie naar een storingsvrij productieproces. Jouw taken omvatten onder andere:<br /><ul><li>Storings-, revisie- en onderhoudswerkzaamheden;</li><li>Elektrotechnische werkzaamheden;</li><li>Deelnemen aan verbeterprojecten om de prestaties van de fabriek te verhogen;</li><li>Rekening houden met machineveiligheid.</li></ul>",
+						"requirements": "In deze mooie functie wordt natuurlijk een beroep gedaan op jouw waardevolle ervaring, die een pijler zal vormen binnen het bedrijf. Daarnaast worden de volgende verwachtingen gesteld:<br /><ul><li>Afgeronde technische opleiding op MBO 4 niveau, richting elektrotechniek;</li><li>Kennis van besturingstechniek, netwerken, pneumatiek en werktuigbouwkunde;</li><li>Basiskennis van PLC;</li><li>Bij voorkeur opleiding NEN 3140;</li><li>Bij voorkeur een lasopleiding;</li><li>Minimaal 3 jaar ervaring met onderhoudswerkzaamheden;</li><li>Mondelingen en schriftelijke beheersing van de Nederlandse en Engelse taal;</li><li>Een actieve houding, je kijkt waar je van toegevoegde waarde kan zijn en pakt dit zelfstandig op.</li></ul>",
+						"benefits": "Als dit allemaal van jou wordt verwacht, dan is het natuurlijk logisch dat je er wat moois voor terug krijgt. In ruil voor jouw ervaring krijg je het volgende terug:<br /><ul><li>Een mooi salaris tot wel € 4.000,- bruto per maand in de 3-ploegendienst;</li><li>Je zal meteen bij het bedrijf op contract komen;</li><li>Een fijne werkplek waar we open en informeel met elkaar communiceren;</li><li>Uitdagingen binnen nieuwe innovatieve projecten en doelstellingen die ertoe doen;</li><li>Lekker veel vakantiedagen, waaronder 25 vakantiedagen 13 ADV dagen op fulltime basis om even lekker op te kunnen laden;</li><li>Flexibele voorwaarden zoals extra pensioenopbouw, minder vrije dagen in ruil voor extra salaris;</li><li>Ruimte om jezelf te ontwikkelen en de vrijheid om keuzes te maken.</li></ul><br />Zie jij jezelf al werken als monteur in de 3-ploegendienst bij een groot bedrijf waar jij het verschil kan maken en wil je een salaris van maximaal €4.500,- inclusief toeslagen? Stuur dan nu je CV naar <a href=\"mailto:beau.ligthart@pro-industry.nl\">beau.ligthart@pro-industry.nl</a> of bel 072-2012000 voor meer informatie!",
+						"sector": null,
+						"category": ["Technische dienst"],
+						"slug": "allround-monteur-P096233"
+					}
+				},
+				"sort": ["Allround Monteur"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P096237",
+				"_score": null,
+				"_timestamp": 1703152826075,
+				"_source": {
+					"published_at": "2023-12-18T23:00:00.000Z",
+					"created_at": "2023-12-14T10:09:09.000Z",
+					"updated_at": "2023-12-14T10:13:50.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": { "channels": ["heerhugowaard", "technische dienst"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Alkmaar",
+						"location": "Alkmaar",
+						"street": "Stationsweg 56",
+						"postcode": "1815CD",
+						"telephone": "0722012000",
+						"callback_id": "61682be1fafcd9002ee8e9a9",
+						"email": "alkmaar@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Beau Ligthart",
+						"first_name": "Beau",
+						"last_name": "Ligthart",
+						"telephone": "+31 658078702",
+						"email": "beau.ligthart@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI000000UlW9/F",
+							"path": "/sfcontacts/c0b62f2d7539998a048240ba011dd38b.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000aJtmYAE",
+						"parent_id": "a0wMI000000aAdZYAU",
+						"number": "P096237",
+						"date": "2023-12-18T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["3 ploegendienst"],
+						"years_experience": { "min": 3, "max": 5 },
+						"salary_indication": { "min": 3800, "max": 4500 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 40, "max": 40 },
+						"languages": ["Engels", "Nederlands"],
+						"education_level": "mbo niveau 4",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Monteur" },
+					"website": {
+						"label": null,
+						"title": "Allround Monteur",
+						"subtitle": "Ben jij een echte techneut?",
+						"media": { "images": [], "videos": [] },
+						"location": { "text": "omgeving Alkmaar", "place": "Alkmaar", "province": "Noord-Holland" },
+						"intro": "Ben jij een ervaren allround monteur die een cruciale rol wil spelen binnen ons bedrijf? Als monteur streef je voortdurend naar procesverbeteringen en ben je snel in het oplossen van storingen. Heb je interesse om te werken bij een duurzaam bedrijf dat hoogwaardige producten produceert in de voedingsmiddelenindustrie? En wil je daarbij ook nog een aantrekkelijk salaris verdienen, tot wel €4.500,- bruto per maand inclusief toeslagen? Lees dan snel verder en ontdek meer over deze vacature voor een monteur in een 3-ploegendienst!",
+						"description": "In de functie van monteur in de 3-ploegendienst werk je met geavanceerde installaties en apparatuur. Als allround monteur ben je belast met storings-, revisie- en onderhoudswerkzaamheden. In nauwe samenwerking met je collega's van de technische dienst en de productie streven jullie naar een productieproces zonder storingen. Jouw taken omvatten onder andere:<br /><ul><li>Storings-, revisie- en onderhoudswerkzaamheden;</li><li>Elektrotechnische werkzaamheden;</li><li>Deelnemen aan verbeterprojecten om de prestaties van de fabriek te verhogen;</li><li>Rekening houden met machineveiligheid.</li></ul>",
+						"requirements": "In deze mooie functie wordt natuurlijk een beroep gedaan op jouw waardevolle ervaring, die een pijler zal vormen binnen het bedrijf. Daarnaast worden de volgende verwachtingen gesteld:<br /><ul><li>Afgeronde technische opleiding op MBO 4 niveau, richting elektrotechniek;</li><li>Bij voorkeur een lasopleiding;</li><li>Minimaal 3 jaar ervaring met onderhoudswerkzaamheden;</li><li>Mondelingen en schriftelijke beheersing van de Nederlandse en Engelse taal;</li><li>Kennis van besturingstechniek, netwerken, pneumatiek en werktuigbouwkunde;</li><li>Basiskennis van PLC;</li><li>Bij voorkeur opleiding NEN 3140;</li><li>Een actieve houding, je kijkt waar je van toegevoegde waarde kan zijn en pakt dit zelfstandig op.</li></ul>",
+						"benefits": "Als dit allemaal van jou wordt verwacht, dan is het natuurlijk logisch dat je er wat moois voor terug krijgt. In ruil voor jouw ervaring krijg je het volgende terug:<br /><ul><li>Een mooi salaris tot wel € 4.000,- bruto per maand in de 3-ploegendienst;</li><li>Uitdagingen binnen nieuwe innovatieve projecten en doelstellingen die ertoe doen;</li><li>Lekker veel vakantiedagen, waaronder 25 vakantiedagen 13 ADV dagen op fulltime basis om even lekker op te kunnen laden;</li><li>Flexibele voorwaarden zoals extra pensioenopbouw, minder vrije dagen in ruil voor extra salaris;</li><li>Je zal meteen bij het bedrijf op contract komen;</li><li>Een fijne werkplek waar we open en informeel met elkaar communiceren;</li><li>Ruimte om jezelf te ontwikkelen en de vrijheid om keuzes te maken.</li></ul><br />Zie jij jezelf al werken als monteur in de 3-ploegendienst bij een groot bedrijf waar jij het verschil kan maken en wil je een salaris van maximaal €4.500,- inclusief toeslagen? Stuur dan nu je CV naar <a href=\"mailto:beau.ligthart@pro-industry.nl\">beau.ligthart@pro-industry.nl</a> of bel 072-2012000 voor meer informatie!",
+						"sector": ["voedingsmiddelen"],
+						"category": ["Technische dienst"],
+						"slug": "allround-monteur-P096237"
+					}
+				},
+				"sort": ["Allround Monteur"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P094403",
+				"_score": null,
+				"_timestamp": 1703152826052,
+				"_source": {
+					"published_at": "2023-11-09T23:00:00.000Z",
+					"created_at": "2023-11-10T15:03:40.000Z",
+					"updated_at": "2023-11-10T15:31:57.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": {
+						"channels": ["noord-brabant", "veghel", "technische dienst", "technisch overig", "engineering", "top"],
+						"exclude": false,
+						"weight": 0
+					},
+					"branch": {
+						"name": "Den Bosch",
+						"location": "Den Bosch",
+						"street": "Verwersstraat 87b",
+						"postcode": "5211HV",
+						"telephone": "0732033000",
+						"callback_id": "61682ce3fafcd9002ee8e9af",
+						"email": "denbosch@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Jan-Karel Vingerhoets",
+						"first_name": "Jan-Karel",
+						"last_name": "Vingerhoets",
+						"telephone": "0658078697",
+						"email": "jan-karel.vingerhoets@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI0000007aMv/F",
+							"path": "/sfcontacts/886efa715cb83f491b67e31b0ac90bd6.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000XT9hYAG",
+						"parent_id": "a0wMI000000D6QzYAK",
+						"number": "P094403",
+						"date": "2023-11-09T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["dagdienst"],
+						"years_experience": { "min": 3, "max": 5 },
+						"salary_indication": { "min": 2690, "max": 3600 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 36, "max": 36 },
+						"languages": ["Engels", "Nederlands"],
+						"education_level": "mbo niveau 4",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Monteur" },
+					"website": {
+						"label": "top",
+						"title": "Allround Monteur Dagdienst",
+						"subtitle": "Heb jij techniek in je genen en denk je in oplossingen. Wil jij werken in een hightech omgeving?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000XT9h&feoid=00N0N00000Ft8Bd&refid=0EMMI000004at27",
+									"path": "/sfjobs/805eece162000323f9f2ca85749a0282.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Veghel", "place": "Veghel", "province": "Noord-Brabant" },
+						"intro": "Zin om te werken bij een groot, bruisend bedrijf in de voedingsmiddelenindustrie? Klaar voor een nieuwe uitdaging? Als allround monteur heb jij de taak om onze machines te onderhouden en storingen op te lossen. En als klap op de vuurpijl, wil je ook nog een prima salaris verdienen en in dagdienst werken? Lees dan gauw verder!",
+						"description": "Wat ga je doen?<br><br>Als allround monteur in dagdienst ben jij de go-to persoon voor allerlei elektrische en instrumentatieklussen. Je doet je eigen ding, voert gepland onderhoud uit volgens de strakke planning, en na elke klus gooi je de details netjes in een SAP PM-rapport. En alsof dat nog niet genoeg is, werk je ook de technische documentatie bij als dat nodig is. Die rapporten zijn niet alleen handig om storingen te doorgronden, maar ze fungeren ook als handige gids voor toekomstige werkzaamheden. Daar bovenop ben jij de gids en coördinator voor monteurs van buitenaf, zodat zij op een veilige en hygiënische manier hun ding kunnen doen.<br><br>",
+						"requirements": "Wat vragen wij van jou?<br><ul><li>Mbo 4, (Electro)techniek, Mechatronica of gelijkwaardig.</li><li>Vakbekwaam persoon Laagspanning (NEN3140 VP) of bereid om dit te leren.</li><li>Basisopleiding automatisering en besturingstechnologie.</li><li>Ervaring als allround monteur in een productie omgeving.</li><li>Ervaring met onderhoudsbeheerssystemen, SAP PM is een pré.</li><li>Servicegerichte houding met eigenaarschap voor problemen en uitdagingen.</li><li>Goed in staat zelfstandig te werken.</li><li>Goede beheersing van de Nederlandse en Engelse taal.</li></ul>",
+						"benefits": "Wat krijg je allemaal in ruil daarvoor?<br><ul><li>Een goed salaris tussen €3.100 en €3.900 bruto per maand o.b.v. 36uur.</li><li>Een unieke cultuur binnen een wereldwijde organisatie.</li><li>Veel doorgroeimogelijkheden.</li><li>Een informele &amp; vriendelijke werkomgeving waarin je samenwerkt met gedreven en professionele collega’s.</li><li>Werken in dagdiensten, wie wil dat nou niet!</li></ul><br><br>Ben jij degene die wij zoeken voor deze uitdagende baan? Bel dan naar 0732033000, mail naar denbosch@pro-industry.nl of solliciteer direct!",
+						"sector": ["voedingsmiddelen"],
+						"category": ["Engineering", "Technisch overig", "Technische dienst"],
+						"slug": "allround-monteur-dagdienst-P094403"
+					}
+				},
+				"sort": ["Allround Monteur Dagdienst"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P094405",
+				"_score": null,
+				"_timestamp": 1703152826052,
+				"_source": {
+					"published_at": "2023-11-12T23:00:00.000Z",
+					"created_at": "2023-11-10T15:07:18.000Z",
+					"updated_at": "2023-11-10T15:10:29.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": {
+						"channels": ["noord-brabant", "veghel", "technische dienst", "technisch overig", "engineering", "top"],
+						"exclude": false,
+						"weight": 0
+					},
+					"branch": {
+						"name": "Den Bosch",
+						"location": "Den Bosch",
+						"street": "Verwersstraat 87b",
+						"postcode": "5211HV",
+						"telephone": "0732033000",
+						"callback_id": "61682ce3fafcd9002ee8e9af",
+						"email": "denbosch@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Roel Langenhuijzen",
+						"first_name": "Roel",
+						"last_name": "Langenhuijzen",
+						"telephone": "0732033000",
+						"email": "roel.langenhuijzen@pro-industry.nl",
+						"title": "Sales Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI000000axWE/F",
+							"path": "/sfcontacts/6997da8237b20d31b7257415ec3f1fef.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000XTCvYAO",
+						"parent_id": "a0wMI000000D6QzYAK",
+						"number": "P094405",
+						"date": "2023-11-12T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["dagdienst"],
+						"years_experience": { "min": 3, "max": 5 },
+						"salary_indication": { "min": 2690, "max": 3600 },
+						"driving_license": "B",
+						"hours": { "min": 36, "max": 36 },
+						"languages": ["Engels", "Nederlands"],
+						"education_level": "mbo niveau 4",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Monteur" },
+					"website": {
+						"label": "top",
+						"title": "Allround Monteur Dagdienst",
+						"subtitle": "Natuurlijke affiniteit met techniek en een talent voor het bedenken van oplossingen? Zie jij jezelf graag aan de slag gaan in een geavanceerde technologische omgeving?",
+						"media": { "images": [], "videos": [] },
+						"location": { "text": "omgeving Veghel", "place": "Veghel", "province": "Noord-Brabant" },
+						"intro": "Sta jij te popelen om deel uit te maken van een toonaangevend en bruisend bedrijf in de voedingsmiddelenindustrie? Klaar voor een frisse uitdaging? Als allround monteur ben jij dé held die onze machines onderhoudt en storingen vliegensvlug oplost. En dat allemaal terwijl je geniet van een aantrekkelijk salaris en werkt in een relaxte dagdienst. Nieuwsgierig geworden? Lees snel verder!",
+						"description": "Wat staat er allemaal op jouw to-do lijst in deze super diverse baan?<br><ul><li>Jij bent de elektrische en instrumentatie goeroe, verantwoordelijk voor alle klusjes op dat gebied.</li><li>Lekker zelfstandig aan de slag, waarbij je gepland onderhoud gewoon volgens de agenda afvinkt.</li><li>Een zorgvuldige overdracht van de boel regelen, want dat is natuurlijk super belangrijk.</li><li>En alsof dat nog niet genoeg is, mag je ook nog eens deelnemen aan te gekke verbeter- en projectteams. Hoe cool is dat?</li></ul>",
+						"requirements": "Wat verwachten we van jou?<br><ul><li>Een kick-ass diploma op Mbo 4-niveau in (Electro)techniek, Mechatronica of iets vergelijkbaars.</li><li>Je bent een held in laagspanning (NEN3140 VP) of je staat te springen om dit te leren.</li><li>Je hebt een stevige basisopleiding in automatisering en besturingstechnologie.</li><li>Ervaring als allround monteur in een productie-omgeving? Dat is voor jou gesneden koek.</li><li>Onderhoudsbeheersystemen zijn jouw tweede natuur, en als je ook nog eens bekend bent met SAP PM, is dat helemaal top.</li><li>Jij bent de koning(in) van service met een eigenaarshouding als het gaat om problemen en uitdagingen.</li><li>Zelfstandig werken? Easy peasy voor jou.</li><li>En last but not least, je hebt de Nederlandse en Engelse taal helemaal onder de knie. Ready to rock?</li></ul>",
+						"benefits": "Wat staat er voor jou op het spel?<br><ul><li>Een lekker salaris tussen €2.686,09 en €3.600 bruto per maand (op basis van 36 uur per week).</li><li>Een te gekke sfeer in een wereldwijde organisatie waarvan de cultuur echt uniek is.</li><li>Kansen om te groeien? Zeker weten, die liggen hier voor het oprapen.</li><li>Een chill werkomgeving waar collega's niet alleen gedreven, maar ook nog eens super vriendelijk zijn.</li><li>Say goodbye to nachtwerk, want hier draait alles om dagdiensten!</li></ul><br><br>Ben jij de held(in) die we zoeken voor deze vette job? Bel dan snel naar 0732033000, stuur een mailtje naar <a href=\"mailto:denbosch@pro-industry.nl\">denbosch@pro-industry.nl</a> of solliciteer meteen!",
+						"sector": ["verpakking", "voedingsmiddelen"],
+						"category": ["Engineering", "Technisch overig", "Technische dienst"],
+						"slug": "allround-monteur-dagdienst-P094405"
+					}
+				},
+				"sort": ["Allround Monteur Dagdienst"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P094654",
+				"_score": null,
+				"_timestamp": 1703152826058,
+				"_source": {
+					"published_at": "2023-11-15T23:00:00.000Z",
+					"created_at": "2023-11-16T14:23:54.000Z",
+					"updated_at": "2023-11-16T14:26:21.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": {
+						"channels": ["venlo", "technische dienst", "technisch overig", "top"],
+						"exclude": false,
+						"weight": 0
+					},
+					"branch": {
+						"name": "Venray",
+						"location": "Venray",
+						"street": "Schoolstraat 1",
+						"postcode": "5801BN",
+						"telephone": "0478203000",
+						"callback_id": "61682f8dfafcd9002ee8e9c7",
+						"email": "venray@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Gasphar Akihary",
+						"first_name": "Gasphar",
+						"last_name": "Akihary",
+						"telephone": "+31478203000",
+						"email": "gasphar.akihary@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": "Afwezig, niet op kantoor",
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/7293V0000004T3c/F",
+							"path": "/sfcontacts/6b4ec177f55d3d8bfc7d1f78e9afec25.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000XwEvYAK",
+						"parent_id": "a0wMI000000GJ8LYAW",
+						"number": "P094654",
+						"date": "2023-11-15T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["dagdienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 2560, "max": 3790 },
+						"driving_license": "B",
+						"hours": { "min": 38, "max": 38 },
+						"languages": ["Engels", "Nederlands"],
+						"education_level": "mbo niveau 3",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Monteur" },
+					"website": {
+						"label": "top",
+						"title": "Allround Monteur Technische Dienst",
+						"subtitle": "Ben jij een technische duizendpoot?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000XwEv&feoid=00N0N00000Ft8Bd&refid=0EMMI000001yUib",
+									"path": "/sfjobs/ea9dc538b332cee629230c0406d3dcf4.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Venlo", "place": "Venlo", "province": "Limburg" },
+						"intro": "Op zoek naar een uitdagende rol als technische dienstmonteur? Deze organisatie biedt precies wat je zoekt! Als allround technicus krijg je de kans om je vaardigheden te benutten en uit te breiden door het onderhouden, repareren en installeren van diverse machines en apparatuur op verschillende productielocaties. Een dynamische omgeving met moderne technologieën staat op je te wachten. Ben jij een zelfgemotiveerde technicus met passie voor het vak? Lees dan snel verder!",
+						"description": "In deze rol draag je zorg voor het onderhoud en reparatie van alle productiemachines en -apparatuur. Je bent essentieel in het minimaliseren van stilstand en het optimaliseren van de productiecapaciteit. Je taken omvatten onder andere:<ul><li>Oplossen van storingen aan machines en apparatuur door analyse en actie.</li><li>Uitvoeren van preventief onderhoud aan machines en apparatuur.</li><li>Onderhouden van technische documentatie voor machines en apparatuur.</li><li>Strikt naleven van veiligheidsvoorschriften en procedures.</li><li>Bijdragen aan het onderhoudsplan met nauwkeurigheid.</li></ul><br />",
+						"requirements": "Voor deze uitdagende functie moet je voldoen aan bepaalde criteria:<ul><li>Een afgeronde technische mbo-opleiding.</li><li>Kennis van mechanische, hydraulische, elektronische en pneumatische systemen.</li><li>Ervaring met PLC's is een pluspunt.</li><li>Flexibel om eens in de 4 á 5 weken deel te nemen aan storingsdiensten.</li></ul><br />",
+						"benefits": "Naast een dynamische werkomgeving bieden we de volgende voordelen:<ul><li>Een competitief maandsalaris tot € 3.793 bruto per maand, afhankelijk van ervaring en expertise op basis van een 38-urige werkweek.</li><li>Mogelijkheid tot een vaste aanstelling bij goed functioneren binnen een jaar.</li><li>Werken in een hecht team binnen een familiebedrijf met wereldwijde erkenning.</li><li>Talrijke mogelijkheden voor persoonlijke ontwikkeling.</li><li>Werkdagen van maandag tot en met vrijdag in dagdienst.</li></ul>Als deze kans je aanspreekt en je gelooft dat je de perfecte match bent voor deze rol, aarzel dan niet en solliciteer direct! Wie weet genieten we binnenkort samen van een kop koffie!",
+						"sector": ["machines en assemblage"],
+						"category": ["Technisch overig", "Technische dienst"],
+						"slug": "allround-monteur-technische-dienst-P094654"
+					}
+				},
+				"sort": ["Allround Monteur Technische Dienst"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P095697",
+				"_score": null,
+				"_timestamp": 1703152826071,
+				"_source": {
+					"published_at": "2023-12-04T23:00:00.000Z",
+					"created_at": "2023-12-04T10:27:03.000Z",
+					"updated_at": "2023-12-04T10:29:35.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": {
+						"channels": ["venlo", "technische dienst", "technisch overig", "top"],
+						"exclude": false,
+						"weight": 0
+					},
+					"branch": {
+						"name": "Venray",
+						"location": "Venray",
+						"street": "Schoolstraat 1",
+						"postcode": "5801BN",
+						"telephone": "0478203000",
+						"callback_id": "61682f8dfafcd9002ee8e9c7",
+						"email": "venray@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Julian Jansen",
+						"first_name": "Julian",
+						"last_name": "Jansen",
+						"telephone": "0478203000",
+						"email": "julian.jansen@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI0000003Aaj/F",
+							"path": "/sfcontacts/cc329e05d617b65fb7dcd08748274829.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000ZIYLYA4",
+						"parent_id": "a0wMI000000GJ8LYAW",
+						"number": "P095697",
+						"date": "2023-12-04T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["dagdienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 2560, "max": 3790 },
+						"driving_license": "B",
+						"hours": { "min": 38, "max": 38 },
+						"languages": ["Engels", "Nederlands"],
+						"education_level": "mbo niveau 3",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Monteur" },
+					"website": {
+						"label": "top",
+						"title": "Allround Monteur Technische Dienst",
+						"subtitle": "Jouw technische skills te werk stellen binnen de groene sector?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000ZIYL&feoid=00N0N00000Ft8Bd&refid=0EMMI000001yUib",
+									"path": "/sfjobs/ec74ac87ba17c7d6f2339e51ad3f7d4a.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Venlo", "place": "Venlo", "province": "Limburg" },
+						"intro": "Zoek je een uitdagende rol als technisch dienst monteur? Deze organisatie biedt precies wat je zoekt! Als veelzijdige monteur draag je zorg voor het onderhoud, reparatie en installatie van machines en apparaten op verschillende locaties. Hier krijg je de kans om je technische expertise te benutten en uit te breiden. Je komt te werken in een dynamische setting met geavanceerde technologieën en moderne machines. Ben je een zelfstandige, gedreven monteur met een passie voor techniek? Blijf dan zeker lezen!",
+						"description": "Als allround monteur technische dienst ben je verantwoordelijk voor het onderhouden en repareren van alle productiemachines en- apparatuur. Je draagt bij aan het minimaliseren van stilstand en het optimaliseren van de productiecapaciteit. Je voert onder andere de volgende taken uit:<br />- Analyseren en oplossen van storingen aan machines en apparatuur.- Preventief onderhoud uitvoeren aan machines en apparatuur.- Verantwoordelijk voor het bijhouden van de technische documentatie van machines en apparatuur.- Werken volgens geldende veiligheidsvoorschriften en procedures.- Accurate bijdrage leveren aan het onderhoudsplan.<br />",
+						"requirements": "Om voor deze verantwoordelijk functie in aanmerking te komen moet je minimaal voldoen aan de functie-eisen die hiervoor worden gesteld:<br />- Een afgeronde technische mbo-opleiding.- Kennis van mechanische, hydraulische, elektronische en pneumatische componenten.- Ervaring met PLC's is een pré.- Bereid om 1x per 4 á 5 weken mee te draaien in de storingsdienst.<br><br>",
+						"benefits": "Naast dat jij in een dynamische omgeving komt te werken mag je ook rekenen op de volgende arbeidsvoorwaarden:<br />- Een maandsalaris, afhankelijk van jouw ervaring tot wel € 3.793 bruto per maand o.b.v. 38 uur.- Bij goed functioneren, binnen 1 jaar een vaste aanstelling.- Werken in een hecht team binnen een familiebedrijf met internationale erkenning.- Veel mogelijkheden tot persoonlijke ontwikkeling.- Werken in dagdienst van maandag t/m vrijdag.<br />Ben jij enthousiast geworden over de vacature en denk jij dat jij de geschikte kandidaat te zijn voor deze functie? Reageer dan direct en wie weet drinken wij binnenkort samen een kop koffie!",
+						"sector": ["voedingsmiddelen"],
+						"category": ["Technisch overig", "Technische dienst"],
+						"slug": "allround-monteur-technische-dienst-P095697"
+					}
+				},
+				"sort": ["Allround Monteur Technische Dienst"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P095119",
+				"_score": null,
+				"_timestamp": 1703152826058,
+				"_source": {
+					"published_at": "2023-11-26T23:00:00.000Z",
+					"created_at": "2023-11-24T08:50:42.000Z",
+					"updated_at": "2023-11-24T08:56:20.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": {
+						"channels": ["noord-brabant", "moerdijk", "procesoperator", "top"],
+						"exclude": false,
+						"weight": 0
+					},
+					"branch": {
+						"name": "Breda",
+						"location": "Breda",
+						"street": "Nieuwstraat 32",
+						"postcode": "4811WV",
+						"telephone": "0765319403",
+						"callback_id": "6167ec71fafcd9002ee8e97f",
+						"email": "breda@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Robin van den Bos",
+						"first_name": "Robin",
+						"last_name": "van den Bos",
+						"telephone": "0765319403",
+						"email": "robin.vandenbos@pro-industry.nl",
+						"title": "Senior Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/7293V0000004SWR/F",
+							"path": "/sfcontacts/6af7d0dda63ce3b8d6759d66809e2086.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000YZOLYA4",
+						"parent_id": "a0w3V000000gsSfQAI",
+						"number": "P095119",
+						"date": "2023-11-26T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["2 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 2700, "max": 3400 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 40, "max": 40 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 2",
+						"hard_criteria": [
+							{
+								"es_structured": true,
+								"type": "Sector",
+								"value": "Chemische industrie",
+								"text": "Chemische industrie"
+							},
+							{ "es_structured": true, "type": "Languages", "value": "Nederlands", "text": "Nederlands" },
+							{ "es_structured": true, "type": "Shiftwork", "value": "2 ploegendienst", "text": "2 ploegendienst" },
+							{
+								"es_structured": true,
+								"type": "Education level",
+								"value": "HAVO - VWO - MBO",
+								"text": "HAVO - VWO - MBO"
+							},
+							{ "es_structured": true, "type": "Years of experience", "value": "1 - 3", "text": "1 - 3" },
+							{ "es_structured": true, "type": "Category", "value": "Procesoperator", "text": "Procesoperator" }
+						]
+					},
+					"igb": { "name": "Operator" },
+					"website": {
+						"label": "top",
+						"title": "Allround Operator",
+						"subtitle": "Altijd al als Allround Operator willen werken voor een toonaangevende organisatie binnen de op- en overslag?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000YZOL&feoid=00N0N00000Ft8Bd&refid=0EMMI000004m0WU",
+									"path": "/sfjobs/f22dbaa7ebe37343d040836487462155.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Moerdijk", "place": "Moerdijk", "province": "Noord-Brabant" },
+						"intro": "<strong>Bij een vooraanstaande organisatie die wereldwijd actief is op het gebied van op- en overslag, krijg je de kans om aan de slag te gaan als procesoperator. Samen met een team van enthousiaste collega's ben jij verantwoordelijk voor de operationele taken met betrekking tot de opslag en overslag van chemische producten. Als jij jouw vaardigheden als operator verder wilt ontwikkelen en de mogelijkheid wilt hebben om te groeien, dan is dit de perfecte kans voor jou. Lees snel verder!</strong> ",
+						"description": "<strong>Als procesoperator heb je een breed scala aan verantwoordelijkheden. Je taken omvatten onder andere:</strong><br /><ul><li>Het laden en lossen van chemische producten van en naar schepen, vrachtwagens en wagons.</li><li>Je bent het aanspreekpunt voor de chauffeurs, schippers en externe bedrijven.</li><li>Je voert inspecties uit aan de terminalapparatuur en rapporteert deze.</li><li>Het nemen van monsters en tankmetingen.</li></ul>",
+						"requirements": "<strong>Om succesvol te zijn als procesoperator, moet je aan de volgende vereisten voldoen:</strong> <ul><li>Je hebt een aantal jaren werkervaring bij een op- en overslag terminal van vloeibare bulkvloeistoffen.</li><li>Je bent in het bezit van een Operator A of een mbo niveau 2 diploma.</li><li>Je bent bij voorkeur in het bezit van een terminal trekker en heftruckcertificaat.</li><li>Je bent bij voorkeur in het bezit van een BHV en ademluchtcertificaat.</li><li>Je bent in het bezit van een VCA certificaat.</li><li>Bereidt zijn om in een 2-ploegendienst te werken.</li></ul>",
+						"benefits": "<strong>Natuurlijk mag je ook iets moois verwachten voor al jouw harde werk, namelijk:</strong> <ul><li>Een informele prettige werksfeer in een uitdagende werkomgeving.</li><li> Een baan met toekomstperspectief en uitzicht op vast dienstverband.</li><li> Mooie arbeidsvoorwaarden met bijkomende regelingen volgens de moderne branche CAO.</li><li> Salaris tussen de € 2.700,- en € 3.400,- incl. 8,75% ploegentoeslag afhankelijk van ervaring en opleiding.</li></ul> <strong>Ben jij op zoek naar een nieuwe baan en wil jij graag aan de slag als operator in een nieuwe uitdaging? Aarzel dan niet langer en dien direct een sollicitatie in!</strong>",
+						"sector": ["chemie", "offshore", "petrochemie", "verlading"],
+						"category": ["Procesoperator"],
+						"slug": "allround-operator-P095119"
+					}
+				},
+				"sort": ["Allround Operator"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P095051",
+				"_score": null,
+				"_timestamp": 1703152826058,
+				"_source": {
+					"published_at": "2023-11-26T23:00:00.000Z",
+					"created_at": "2023-11-23T07:48:45.000Z",
+					"updated_at": "2023-11-23T07:59:59.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": { "channels": ["drenthe", "wijster", "procesoperator"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Emmen",
+						"location": "Emmen",
+						"street": "Marktplein 138",
+						"postcode": "7811BA",
+						"telephone": "0591203000",
+						"callback_id": "61d5c3755a3c18002e31007d",
+						"email": "emmen@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Ivan Veurman",
+						"first_name": "Ivan",
+						"last_name": "Veurman",
+						"telephone": "0591-203000",
+						"email": "ivan.veurman@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/7293V000000TXLl/F",
+							"path": "/sfcontacts/e44e1b65bc1f33c8c650f09747e63985.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000YQ3JYAW",
+						"parent_id": "a0w0N000007HjXBQA0",
+						"number": "P095051",
+						"date": "2023-11-26T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["4 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 2700, "max": 3000 },
+						"driving_license": "B",
+						"hours": { "min": 36, "max": 36 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 2",
+						"hard_criteria": [
+							{ "es_structured": true, "type": "Shiftwork", "value": "3 ploegendienst", "text": "3 ploegendienst" },
+							{ "es_structured": true, "type": "Category", "value": "Procesoperator", "text": "Procesoperator" },
+							{
+								"es_structured": true,
+								"type": "Sector",
+								"value": "Overige industrieën",
+								"text": "Overige industrieën"
+							},
+							{
+								"es_structured": true,
+								"type": "Education level",
+								"value": "LBO - VMBO - MAVO",
+								"text": "LBO - VMBO - MAVO"
+							},
+							{ "es_structured": true, "type": "Languages", "value": "Nederlands", "text": "Nederlands" }
+						]
+					},
+					"igb": { "name": "Operator" },
+					"website": {
+						"label": null,
+						"title": "Allround Operator",
+						"subtitle": "De procesindustrie daagt je uit. Ambieer jij een uitdagende baan als Allround Operator?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000YQ3J&feoid=00N0N00000Ft8Bd&refid=0EMMI000004l3Px",
+									"path": "/sfjobs/6315850f8596dc701b1fecbf2f3b566a.jpeg",
+									"format": "jpeg"
+								},
+								{
+									"src": "https://c.na88.content.force.com/servlet/rtaImage?eid=a0Fi000000YeiTg&feoid=00Ni00000061eX8&refid=0EMi0000000i598",
+									"path": "/sfjobs/7b3f8e9a1d2eefab2d6992dc55d048f9.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Hoogeveen", "place": "Hoogeveen", "province": "Drenthe" },
+						"intro": "Ambieer jij een uitdagende rol als Allround Operator in een 4-ploegendienst, waarbij je een maandelijks inkomen van maximaal € 3.000,- bruto kunt verdienen, inclusief een aantrekkelijke ploegentoeslag van 25%? Deze mogelijkheid doet zich voor bij een vooruitstrevende producent van hoogwaardige eiwitten met een sterke nadruk op duurzaamheid. De eiwitten worden vervaardigd uit restproducten van pluimveeslachting. Met behulp van een geavanceerd en afgesloten proces worden eiwitten en vetten gewonnen uit het slachtafval van kippen, dat vervolgens wordt gebruikt in diverse toepassingen, waaronder diervoeding. Lijkt het je interessant om betrokken te zijn bij dit duurzame initiatief, dat volop kansen biedt voor persoonlijke groei en ontwikkeling? Blijf lezen voor meer informatie!",
+						"description": "Als Allround Operator ben je betrokken bij diverse productielijnen waar verenmeel, bloedmeel en pluimveemeel worden vervaardigd uit restproducten van pluimveeslachting. Je krijgt de kans om specialist te worden in een wereldwijd groeiende vraag naar deze hoogwaardige eiwitten. Hier zijn kort samengevat je taken:<br><ul><li>Beheren van geautomatiseerde productielijnen vanuit de controlekamer.</li><li>Monitoren van bedrijfsvoeringen, besturingssystemen, parameters en regelaars. </li><li>Uitvoeren van productiewerkzaamheden volgens planning.</li><li>Begeleiden van in- en uitgaande transporten en zorgen voor de vereiste documentatie.</li><li>Registreren van productiegegevens en bijhouden van de onderhoudsplanning.</li><li>Opmerken, oplossen en voorkomen van storingen.</li></ul>",
+						"requirements": "Wil je meewerken aan het vervullen van de wereldwijde vraag naar hoogwaardige eiwitten? Als je voldoet aan onderstaande criteria, kom je mogelijk in aanmerking voor deze veelzijdige en uitdagende functie:<br><ul><li>Een mbo-werk- en denkniveau.</li><li>Bereidheid om te werken in een 4-ploegendienst. </li><li>Werkervaring als Allround Operator in de maakindustrie.</li><li>Bij voorkeur ervaring in de voedingsmiddelenindustrie.</li><li>Een pro-actieve en ondernemende instelling.</li><li>Een echte teamspeler die goed om kan gaan met stress.</li></ul>",
+						"benefits": "Als Procesoperator draag je aanzienlijke verantwoordelijkheden, en daar staan aantrekkelijke arbeidsvoorwaarden tegenover, zoals:<br><ul><li>Een competitief startsalaris tot € 3.000,- bruto per maand, inclusief een ploegentoeslag van 25%.</li><li>25 vakantiedagen en 8,33% vakantiegeld.</li><li>Reiskostenvergoeding van € 0,21 per kilometer.</li><li>Mogelijkheid tot een vast dienstverband bij goede prestaties.</li><li>Talrijke ontwikkelingskansen via cursussen en opleidingen.</li><li>Werkuren: 06:00 - 14:00 / 14:00 - 22:00 / 22:00 - 06:00.</li></ul><br>Ambieer jij een uitdagende functie als Allround Operator binnen één van de snelstgroeiende en best betaalde industrieën van Nederland? Neem contact op met ons!",
+						"sector": ["voedingsmiddelen"],
+						"category": ["Procesoperator"],
+						"slug": "allround-operator-P095051"
+					}
+				},
+				"sort": ["Allround Operator"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P094625",
+				"_score": null,
+				"_timestamp": 1703152826051,
+				"_source": {
+					"published_at": "2023-11-16T23:00:00.000Z",
+					"created_at": "2023-11-16T10:13:55.000Z",
+					"updated_at": "2023-11-16T10:15:48.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": {
+						"channels": ["noord brabant", "katwijk nb", "machineoperator", "top"],
+						"exclude": false,
+						"weight": 0
+					},
+					"branch": {
+						"name": "Venray",
+						"location": "Venray",
+						"street": "Schoolstraat 1",
+						"postcode": "5801BN",
+						"telephone": "0478203000",
+						"callback_id": "61682f8dfafcd9002ee8e9c7",
+						"email": "venray@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Mike Janssen",
+						"first_name": "Mike",
+						"last_name": "Janssen",
+						"telephone": "0478203000",
+						"email": "mike.janssen@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": false,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/7290N000000JXf9/F",
+							"path": "/sfcontacts/cfa0af545064e35e3202ca3d4e24ca32.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000XuQ1YAK",
+						"parent_id": "a0w3V000001EFj0QAG",
+						"number": "P094625",
+						"date": "2023-11-16T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["3 ploegendienst"],
+						"years_experience": { "min": 3, "max": 5 },
+						"salary_indication": { "min": 2600, "max": 3500 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 40, "max": 40 },
+						"education_level": "mbo niveau 2",
+						"hard_criteria": [
+							{
+								"es_structured": true,
+								"type": "Sector",
+								"value": "Voedingsmiddelenindustrie",
+								"text": "Voedingsmiddelenindustrie"
+							},
+							{ "es_structured": true, "type": "Shiftwork", "value": "3 ploegendienst", "text": "3 ploegendienst" },
+							{
+								"es_structured": true,
+								"type": "Education level",
+								"value": "HAVO - VWO - MBO",
+								"text": "HAVO - VWO - MBO"
+							},
+							{ "es_structured": true, "type": "Years of experience", "value": "3 - 5", "text": "3 - 5" },
+							{ "es_structured": true, "type": "Category", "value": "Productie", "text": "Productie" },
+							{ "es_structured": true, "type": "Category", "value": "Procesoperator", "text": "Procesoperator" }
+						]
+					},
+					"igb": { "name": "Operator" },
+					"website": {
+						"label": "top",
+						"title": "Allround Operator",
+						"subtitle": "Word de smaakmaker in de voedingsindustrie!",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000XuQ1&feoid=00N0N00000Ft8Bd&refid=0EM3V0000026pWS",
+									"path": "/sfjobs/91b20a988b57906c751895348e50aa65.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Cuijk", "place": "Cuijk", "province": "Noord-Brabant" },
+						"intro": "Stap in de wereld van voedselinnovatie bij een voortrekkersrol in de aardappelindustrie! Wij zoeken een ervaren Operator die zijn vaardigheden wil laten groeien in de bruisende wereld van hoogwaardige aardappelproducten voor heel Europa. Ben jij klaar voor een uitdaging in een 3-ploegendienst én een salaris tot wel € 3500,- bruto per maand inclusief ploegentoeslag? Lees snel verder en ontdek jouw volgende carrièrestap!",
+						"description": "In deze rol staat kwaliteit bovenaan. Samen met jouw team draag je de verantwoordelijkheid voor een vlekkeloos productieproces. Jouw taken omvatten onder andere:<br><ul><li>Bedienen van apparatuur terwijl je het proces nauwlettend in de gaten houdt.</li><li>Uitvoeren van rigoureuze kwaliteitscontroles.</li><li>Sturing geven aan en controleren van ondersteunende processen.</li><li>Snel signaleren en verhelpen van storingen, en zelfstandig onderhoud uitvoeren.</li><li>Actief meewerken aan procesoptimalisatie met jouw waardevolle input.</li></ul>",
+						"requirements": "Jouw team draagt de verantwoordelijkheid voor het gehele proces. Daarom is oog voor kwaliteit cruciaal. Voor deze rol heb je nodig:<br><ul><li>MBO 3 werk- en denkniveau, bij voorkeur met een diploma in de procestechniek.</li><li>Een gedreven en leergierige instelling.</li><li>Enkele jaren ervaring in procestechniek, bij voorkeur binnen de voedingsmiddelenindustrie.</li><li>Sterke teamspeler met uitstekende communicatieve skills.</li></ul>",
+						"benefits": "Deze uitdagende functie biedt aantrekkelijke arbeidsvoorwaarden:<br><ul><li>Een salaris tot wel € 3500,- bruto per maand inclusief ploegentoeslag, afhankelijk van ervaring.</li><li>Talloze kansen voor persoonlijke groei met trainingen, cursussen en opleidingen.</li><li>Een hecht en enthousiast team waar communicatie centraal staat.</li></ul><br><br>Klaar om een smaakvolle bijdrage te leveren aan de voedingsindustrie? Grijp deze kans en solliciteer vandaag nog! Maak jouw stempel in de wereld van hoogwaardige aardappelproducten!",
+						"sector": ["voedingsmiddelen"],
+						"category": ["Machineoperator"],
+						"slug": "allround-operator-P094625"
+					}
+				},
+				"sort": ["Allround Operator"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P096605",
+				"_score": null,
+				"_timestamp": 1703152826127,
+				"_source": {
+					"published_at": "2023-12-19T23:00:00.000Z",
+					"created_at": "2023-12-20T16:00:37.000Z",
+					"updated_at": "2023-12-20T16:05:47.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": { "channels": ["groningen", "noordwijk", "procesoperator"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Groningen",
+						"location": "Groningen",
+						"street": "Schuitendiep 45",
+						"postcode": "9711RB",
+						"telephone": "0502052222",
+						"callback_id": "61682dd9fafcd9002ee8e9b7",
+						"email": "groningen@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Wouter van der Meulen",
+						"first_name": "Wouter",
+						"last_name": "van der Meulen",
+						"telephone": "0658078693",
+						"email": "wouter.vandermeulen@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI00000015AX/F",
+							"path": "/sfcontacts/c1d5e22da4e8164257dbd50cd5361593.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000awVJYAY",
+						"parent_id": "a0wMI000000agC1YAI",
+						"number": "P096605",
+						"date": "2023-12-19T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["5 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 3400, "max": 4300 },
+						"driving_license": "B",
+						"hours": { "min": 40, "max": 40 },
+						"languages": ["Engels", "Nederlands"],
+						"education_level": "mbo niveau 3",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Operator" },
+					"website": {
+						"label": null,
+						"title": "Allround Operator",
+						"subtitle": "Word operator in de voedingsmiddelenindustrie!",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000awVJ&feoid=00N0N00000Ft8Bd&refid=0EMMI000001P7tl",
+									"path": "/sfjobs/405d27f0f5f287736000dbb01c7fec60.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Groningen", "place": "Groningen", "province": "Groningen" },
+						"intro": "Heb jij een technisch mbo-4 op zak, ervaring als procesoperator binnen de voedingsmiddelenindustrie en zoek jij een baan waarbij jij je vaardigheden kan verbeteren? Dan zoeken wij jou! Als operator ga jij te werk om het proces soepel te laten verlopen. Zo ga jij het proces monitoren en optreden bij afwijkingen, steekproeven uitvoeren, het machinaal ombouwen en kwaliteitscontroles verrichten. Ben jij op zoek naar een baan in de 5-ploegendienst en wil jij een startsalaris verdienen tussen de €3.500,- en €4.100,- bruto per maand? Solliciteer direct!",
+						"description": "Jouw takenpakket bestaat uit:<br><ul><li>Verschillende processen, installaties en systemen bedienen. </li><li>Storingen opsporen, oplossen en lange termijn oplossingen bedenken.</li><li>Veelvuldig controlerondes houden. </li><li>Je bevindingen tijdens je controlerondes bespreken en oplossen. </li><li>Verantwoordelijk voor de veiligheid en kwaliteit.</li><li>Data verzamelen, deze analyseren en je conclusies uit halen. </li><li>Verbeteringen toepassen op gebied van proces, kwaliteit, veiligheid en product.</li></ul>",
+						"requirements": "Dit vragen wij van jou:<br><ul><li>Jij hebt een technisch mbo-3 diploma op zak.</li><li>Jij hebt ervaring als operator binnen de voedingsmiddelenindustrie.</li><li>Jij kunt uitstekend Nederlands en Engels.</li><li>Jij hebt ervaring op het gebied van HACCP.</li><li>Jij bent bereid in de 5-ploegendienst te werken.</li></ul>",
+						"benefits": "Dit krijg jij terug voor jouw werkzaamheden:<br><ul><li>Een uitstekend startsalaris van kan oplopen tot €4.100,- bruto per maand, inclusief ploegentoeslag!</li><li>Een topbaan in de 5-ploegendienst!</li><li>Ruimte om interne trainingen en cursussen te volgen.</li><li>Maak jij een vliegende start? Dan heb jij op korte termijn een contract bij de werkgever!</li></ul>",
+						"sector": ["voedingsmiddelen"],
+						"category": ["Procesoperator"],
+						"slug": "allround-operator-P096605"
+					}
+				},
+				"sort": ["Allround Operator"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P096527",
+				"_score": null,
+				"_timestamp": 1703152826127,
+				"_source": {
+					"published_at": "2023-12-18T23:00:00.000Z",
+					"created_at": "2023-12-19T16:02:22.000Z",
+					"updated_at": "2023-12-19T16:02:25.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": { "channels": ["groningen", "noordwijk", "procesoperator"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Groningen",
+						"location": "Groningen",
+						"street": "Schuitendiep 45",
+						"postcode": "9711RB",
+						"telephone": "0502052222",
+						"callback_id": "61682dd9fafcd9002ee8e9b7",
+						"email": "groningen@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Wouter van der Meulen",
+						"first_name": "Wouter",
+						"last_name": "van der Meulen",
+						"telephone": "0658078693",
+						"email": "wouter.vandermeulen@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI00000015AX/F",
+							"path": "/sfcontacts/c1d5e22da4e8164257dbd50cd5361593.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000amNtYAI",
+						"parent_id": "a0wMI000000agC1YAI",
+						"number": "P096527",
+						"date": "2023-12-18T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["5 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 3400, "max": 4300 },
+						"driving_license": "B",
+						"hours": { "min": 40, "max": 40 },
+						"languages": ["Engels", "Nederlands"],
+						"education_level": "mbo niveau 4",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Operator" },
+					"website": {
+						"label": null,
+						"title": "Allround Operator",
+						"subtitle": "Word operator in de voedingsmiddelenindustrie!",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000amNt&feoid=00N0N00000Ft8Bd&refid=0EMMI000001P7tl",
+									"path": "/sfjobs/e1e68551d89d32ac134a42fcce9b68e3.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Groningen", "place": "Groningen", "province": "Groningen" },
+						"intro": "Ben jij een operator die in het bezit is van zijn technische mbo-4 diploma, heb jij ervaring met verschillende technische aspecten, zoek jij een baan voor de lange termijn en wil jij een functie die veelzijdig is? Jij komt als operator terecht in de  voedingsmiddelenindustrie, waarbij jij het overzicht moet bewaren. Daarnaast zul jij alle werkzaamheden moeten uitvoeren die bij het operator vak naar voren komen. Dit zijn procesmatige-, mechanische- en controlekamer werkzaamheden. Daarnaast heb jij binnen deze uitdagende functie ook de taak om storingen op te lossen, veiligheid te waarborgen en met jouw analytisch vermogen de juiste conclusies trekken. Ben jij op zoek naar een baan in de 5-ploegendienst en wil jij een startsalaris verdienen tussen de €3.500,- en €4.100,- bruto per maand? Solliciteer direct!",
+						"description": "Jouw takenpakket bestaat uit:<br /><ul><li>Verschillende processen, installaties en systemen bedienen. </li><li>Storingen opsporen, oplossen en lange termijn oplossingen bedenken.</li><li>Veelvuldig controlerondes houden. </li><li>Je bevindingen tijdens je controlerondes bespreken en oplossen. </li><li>Verantwoordelijk voor de veiligheid en kwaliteit.</li><li>Data verzamelen, deze analyseren en je conclusies uit halen. </li><li>Verbeteringen toepassen op gebied van proces, kwaliteit, veiligheid en product.</li></ul>",
+						"requirements": "Dit vragen wij van jou:<ul><li>Jij hebt een technisch mbo-4 diploma op zak.</li><li>Jij hebt ervaring als operator binnen de voedingsmiddelenindustrie.</li><li>Jij kunt uitstekend Nederlands en Engels. </li><li>Jij hebt ervaring op het gebied van HACCP.</li><li>Jij bent bereid in de 5-ploegendienst te werken.</li></ul>",
+						"benefits": "Dit krijg jij terug voor jouw werkzaamheden:<ul><li>Een uitstekend startsalaris van kan oplopen tot €4.100,- bruto per maand, inclusief ploegentoeslag!</li><li>Een topbaan in de 5-ploegendienst!</li><li>Ruimte om interne trainingen en cursussen te volgen.</li><li>Maak jij een vliegende start? Dan heb jij op korte termijn een contract bij de werkgever!</li></ul>",
+						"sector": ["voedingsmiddelen"],
+						"category": ["Procesoperator"],
+						"slug": "allround-operator-P096527"
+					}
+				},
+				"sort": ["Allround Operator"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P095850",
+				"_score": null,
+				"_timestamp": 1703152826121,
+				"_source": {
+					"published_at": "2023-12-11T23:00:00.000Z",
+					"created_at": "2023-12-06T13:16:14.000Z",
+					"updated_at": "2023-12-06T13:16:53.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": {
+						"channels": ["drenthe", "beilen", "machineoperator", "procesoperator", "top"],
+						"exclude": false,
+						"weight": 0
+					},
+					"branch": {
+						"name": "Emmen",
+						"location": "Emmen",
+						"street": "Marktplein 138",
+						"postcode": "7811BA",
+						"telephone": "0591203000",
+						"callback_id": "61d5c3755a3c18002e31007d",
+						"email": "emmen@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Mark Wubs",
+						"first_name": "Mark",
+						"last_name": "Wubs",
+						"telephone": "0591-203000",
+						"email": "mark.wubs@pro-industry.nl",
+						"title": "Senior Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI000000adVt/F",
+							"path": "/sfcontacts/323c5e948b25342f38788f9e2d0f645e.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000ZYBhYAO",
+						"parent_id": "a0w3V000000hRT0QAM",
+						"number": "P095850",
+						"date": "2023-12-11T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Starter",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["5 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 3000, "max": 4200 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 33.6, "max": 33.6 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 3",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Operator" },
+					"website": {
+						"label": "top",
+						"title": "Allround Operator Production",
+						"subtitle": "Operator - 5-ploegendienst - Beilen",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000ZYBh&feoid=00N0N00000Ft8Bd&refid=0EM3V0000038L0K",
+									"path": "/sfjobs/72de6a86e9b20d78bd1bfd0eca0392de.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Hoogeveen", "place": "Hoogeveen", "province": "Drenthe" },
+						"intro": "Heb jij werkervaring opgedaan als operator en wil jij je ontwikkelen binnen de voedingsmiddelenindustrie? Dan is dit jouw kans in de 5-ploegendienst bij een toonaangevende opdrachtgever die mooie arbeidsvoorwaarde heeft. Je startsalaris valt tussen de €3.200 en €4.200 bruto per maand. Wil jij meer weten over de vacature? Neem deze dan nog gauw door!",
+						"description": "Jij zal als operator een belangrijke schakel zijn bij het verwerken en verpakken van grondstoffen die worden gebruikt in de voedingsmiddelenindustrie. De kwaliteit en veiligheid zijn van groot belang en jij zorgt ervoor dat die gehandhaafd wordt ten alle tijden. Jij houd verder toezicht over het productieproces en anticipeert op afwijkingen:<br />De werkzaamheden kort samengevat:<br /><ul><li>Het uitvoeren van eerstelijns onderhoud en zelfstandig oplossen van kleine storingen.</li><li>Bedienen, installeren en ombouwen van de diverse productiemachines.</li><li>Uitvoeren van kwaliteitscontroles.</li><li>Rapporteren van afwijkingen in het proces.</li><li>Schoon en overzichtelijk houden van de werkplekken.</li><li>Bereiden en verpakken van de voedingsmiddelen.</li></ul><br />",
+						"requirements": "Je zal in aanmerking komen voor deze vacature als je de volgende punten kan afvinken:<br /><ul><li>Relevante werkervaring als operator of vergelijkbaar.</li><li>Bereidwilligheid voor het volgen van opleidingen.</li><li>In bezit van een mbo diploma, bij voorkeur in de techniek.</li><li>Gedreven en ambitieus zijn eigenschappen die jou typeren als persoon.</li></ul><br />",
+						"benefits": "De volgende arbeidsvoorwaarden zijn van kracht:<br /><ul><li>Een geweldig startsalaris wat kan oplopen tot €4.200,- bruto per maand.</li><li>Veel ruimte voor persoonlijke ontwikkeling en doorgroeimogelijkheden.</li><li>Technische en uitdagende functie in de 5-ploegendienst.</li><li>Reiskostenvergoeding conform cao.</li><li>Uitzicht op een vaste aanstelling.</li></ul><br />Ben jij de operator die dit klusje kan klaren? Solliciteer dan vandaag nog en pak deze kans!",
+						"sector": ["voedingsmiddelen"],
+						"category": ["Procesoperator", "Machineoperator"],
+						"slug": "allround-operator-production-P095850"
+					}
+				},
+				"sort": ["Allround Operator Production"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P095675",
+				"_score": null,
+				"_timestamp": 1703152826071,
+				"_source": {
+					"published_at": "2023-11-05T23:00:00.000Z",
+					"created_at": "2023-12-01T16:10:54.000Z",
+					"updated_at": "2023-12-01T16:16:55.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": { "channels": ["uden", "procesoperator", "productie", "top"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Den Bosch",
+						"location": "Den Bosch",
+						"street": "Verwersstraat 87b",
+						"postcode": "5211HV",
+						"telephone": "0732033000",
+						"callback_id": "61682ce3fafcd9002ee8e9af",
+						"email": "denbosch@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Mex Rebergen",
+						"first_name": "Mex",
+						"last_name": "Rebergen",
+						"telephone": "+073 203 3000",
+						"email": "mex.rebergen@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/7293V0000004Pu5/F",
+							"path": "/sfcontacts/c96e29a297fa5963182041032a9fc8b6.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000ZDonYAG",
+						"parent_id": "a0wMI0000009J0DYAU",
+						"number": "P095675",
+						"date": "2023-11-05T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Starter",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["5 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 2950, "max": 3200 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 31.5, "max": 31.5 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 1",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Operator" },
+					"website": {
+						"label": "top",
+						"title": "Allround Operator in een nieuwe fabriek",
+						"subtitle": "Allround operator - 5 ploegen - nieuwe fabriek, compleet nieuw product",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000ZDon&feoid=00N0N00000Ft8Bd&refid=0EMMI000004spXt",
+									"path": "/sfjobs/cf90dcf2aa05958414671c08cefa60d0.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Uden", "place": "Uden", "province": "Noord-Brabant" },
+						"intro": "Bij deze werkgever zijn ze druk bezig met het opstarten van een gloednieuwe fabriek waar ze een nieuw product produceren dat fungeert als halffabricaat voor lithium in batterijen. Vanwege de stevige groei zoeken ze meerdere Allround Operators die tegen een zeer aantrekkelijk salaris in een 5-ploegendienst willen werken. Als je goed presteert, krijg je na 8/9 maanden een jaarcontract en ben je voor de lange termijn verzekerd van een plekje.",
+						"description": "Werken volgens veiligheidsvoorschriften en procedures is voor jou bekend terrein, en bovendien heb je een sterke focus op de productkwaliteit. Als procesoperator onderga je een brede opleiding en werk je in een informele, maar professionele sfeer. Je gaat betrokken zijn bij verschillende taken, waaronder:<br /><ul><li>Batchprocessen, mengen en zeven.</li><li>Het bewaken van processen en het bijhouden van cycli.</li><li>Controles uitvoeren op verschillende installaties.</li><li>Het registreren van procesgegevens.</li></ul><br />",
+						"requirements": "Naast een proactieve instelling en doorzettingsvermogen zijn we op zoek naar een operator met een sterke betrokkenheid. De ideale operator heeft:<br /><ul><li>Brede ervaring in procestechniek/productie.</li><li>MBO 1 (Operator basis of vergelijkbaar).</li><li>Een groot verantwoordelijkheidsgevoel.</li><li>Uitstekende beheersing van de Nederlandse taal, zowel mondeling als schriftelijk.</li></ul><br />",
+						"benefits": "In nauwe samenwerking met onze opdrachtgever bieden wij een splinternieuwe en uitdagende werkomgeving waar zelfstandigheid en verantwoordelijkheid voorop staan. Hier krijg je de kans om je te ontwikkelen tot een veelzijdige operator! Daarnaast kun je rekenen op:<br /><ul><li>Een tijdelijk contract met uitzicht op een vaste aanstelling.</li><li>Een aangename en informele werksfeer.</li><li>Gunstige arbeidsvoorwaarden.</li><li>Een stabiele toekomst.</li><li>Een goed salaris.</li><li>Mogelijkheden voor verdere scholing binnen het vakgebied.</li></ul><br />",
+						"sector": ["chemie"],
+						"category": ["Procesoperator", "Productie"],
+						"slug": "allround-operator-in-een-nieuwe-fabriek-P095675"
+					}
+				},
+				"sort": ["Allround Operator in een nieuwe fabriek"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P095648",
+				"_score": null,
+				"_timestamp": 1703152826065,
+				"_source": {
+					"published_at": "2023-12-03T23:00:00.000Z",
+					"created_at": "2023-12-01T15:08:21.000Z",
+					"updated_at": "2023-12-01T15:13:51.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": { "channels": ["uden", "procesoperator", "productie", "top"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Den Bosch",
+						"location": "Den Bosch",
+						"street": "Verwersstraat 87b",
+						"postcode": "5211HV",
+						"telephone": "0732033000",
+						"callback_id": "61682ce3fafcd9002ee8e9af",
+						"email": "denbosch@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Mex Rebergen",
+						"first_name": "Mex",
+						"last_name": "Rebergen",
+						"telephone": "+073 203 3000",
+						"email": "mex.rebergen@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/7293V0000004Pu5/F",
+							"path": "/sfcontacts/c96e29a297fa5963182041032a9fc8b6.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000ZCzBYAW",
+						"parent_id": "a0wMI0000009J0DYAU",
+						"number": "P095648",
+						"date": "2023-12-03T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Starter",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["5 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 2950, "max": 3200 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 31.5, "max": 31.5 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 1",
+						"hard_criteria": []
+					},
+					"igb": { "name": "Operator" },
+					"website": {
+						"label": "top",
+						"title": "Allround Operator in een nieuwe fabriek",
+						"subtitle": "Allround operator - 5 ploegen - nieuwe fabriek, compleet nieuw product",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000ZCzB&feoid=00N0N00000Ft8Bd&refid=0EMMI000004smVB",
+									"path": "/sfjobs/bdfbc9f6c6677d8865348eed659a8f67.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Uden", "place": "Uden", "province": "Noord-Brabant" },
+						"intro": "Bij deze werkgever zijn ze bezig met het opzetten van een gloednieuwe fabriek, waar ze een supertof product maken dat als halffabricaat dient voor lithium in batterijen. Door deze flinke uitbreiding zijn ze op zoek naar meerdere Allround operators die tegen een super aantrekkelijk salaris willen knallen in een 5-ploegendienst. Als je goed presteert, ligt na 8/9 maanden zelfs een jaarcontract op je te wachten. Kortom, een langdurige verbintenis staat voor de deur! ",
+						"description": "Werken volgens safety-first regels is voor jou gesneden koek en je zet de kwaliteit van het product altijd op nummer één. Als procesoperator krijg jij een allround training en kom je terecht in een relaxte maar professionele vibe. Hier zijn een paar klussen waar jij je mee bezig gaat houden:<br /><ul><li>Batch proces, lekker mengen en zeven.</li><li>Het proces nauwlettend in de gaten houden en de cycli bijhouden.</li><li>Controles uitvoeren op verschillende installaties.</li><li>Alle ins en outs van het proces netjes registreren.</li></ul><br />",
+						"requirements": "Naast een pro actieve houding en een dosis doorzettingsvermogen zoeken wij een operator die hart voor de zaak heeft. De ideale operator beschikt over:<br /><ul><li>Allround ervaring in de procestechniek/productie.</li><li>MBO 1 (Operator basis of soortgelijk).</li><li>Je bezit over een flinke dosis verantwoordelijkheidsgevoel.</li><li>Je hebt een goede beheersing van de Nederlandse taal in woord en geschrift.</li></ul>",
+						"benefits": "In samenwerking met de opdrachtgever bieden wij een gloednieuwe uitdagende werkomgeving waarin zelfstandigheid, en verantwoording voorop staat. Daarnaast heb je de mogelijkheid jezelf te ontwikkelen tot een echte allround operator! Daarnaast kun je rekenen op:<br /><ul><li>Een tijdelijk contract met uitzicht op vast.</li><li>Een prettige informele werksfeer.</li><li>Goede arbeidsvoorwaarden.</li><li>Stabiele toekomst.</li><li>Goed salaris.</li><li>Ruimte voor eventuele opleidingsmogelijkheden binnen het vakgebied.</li></ul>",
+						"sector": ["automotive", "chemie"],
+						"category": ["Procesoperator", "Productie"],
+						"slug": "allround-operator-in-een-nieuwe-fabriek-P095648"
+					}
+				},
+				"sort": ["Allround Operator in een nieuwe fabriek"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P093560",
+				"_score": null,
+				"_timestamp": 1703152826037,
+				"_source": {
+					"published_at": "2023-11-03T23:00:00.000Z",
+					"created_at": "2023-10-26T09:09:56.000Z",
+					"updated_at": "2023-11-03T16:23:18.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": {
+						"channels": ["noord-brabant", "veghel", "machineoperator", "procesoperator", "technisch overig", "top"],
+						"exclude": false,
+						"weight": 0
+					},
+					"branch": {
+						"name": "Den Bosch",
+						"location": "Den Bosch",
+						"street": "Verwersstraat 87b",
+						"postcode": "5211HV",
+						"telephone": "0732033000",
+						"callback_id": "61682ce3fafcd9002ee8e9af",
+						"email": "denbosch@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Jan-Karel Vingerhoets",
+						"first_name": "Jan-Karel",
+						"last_name": "Vingerhoets",
+						"telephone": "0658078697",
+						"email": "jan-karel.vingerhoets@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI0000007aMv/F",
+							"path": "/sfcontacts/886efa715cb83f491b67e31b0ac90bd6.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000VtQ1YAK",
+						"parent_id": "a0w3V000001ReqtQAC",
+						"number": "P093560",
+						"date": "2023-11-03T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Vast contract",
+						"shiftwork": ["5 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 2800, "max": 3700 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 36, "max": 36 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 3",
+						"hard_criteria": [
+							{ "es_structured": true, "type": "Hours per week", "value": "32 - 40", "text": "32 - 40" },
+							{ "es_structured": true, "type": "Category", "value": "Kwaliteit", "text": "Kwaliteit" },
+							{
+								"es_structured": true,
+								"type": "Category",
+								"value": "Technisch uitvoerend",
+								"text": "Technisch uitvoerend"
+							},
+							{ "es_structured": true, "type": "Category", "value": "Productie", "text": "Productie" },
+							{ "es_structured": true, "type": "Category", "value": "Procesoperator", "text": "Procesoperator" },
+							{
+								"es_structured": true,
+								"type": "Education level",
+								"value": "HAVO - VWO - MBO",
+								"text": "HAVO - VWO - MBO"
+							},
+							{
+								"es_structured": true,
+								"type": "Sector",
+								"value": "Overige industrieën",
+								"text": "Overige industrieën"
+							},
+							{
+								"es_structured": true,
+								"type": "Sector",
+								"value": "Plantaardige oliën en vetten",
+								"text": "Plantaardige oliën en vetten"
+							},
+							{
+								"es_structured": true,
+								"type": "Sector",
+								"value": "Voedingsmiddelenindustrie",
+								"text": "Voedingsmiddelenindustrie"
+							},
+							{ "es_structured": true, "type": "Shiftwork", "value": "5 ploegendienst", "text": "5 ploegendienst" }
+						]
+					},
+					"igb": { "name": "Proces Operator" },
+					"website": {
+						"label": "top",
+						"title": "Allround Procesoperator",
+						"subtitle": "Heb je eerdere ervaring in controlekamer activiteiten, verpakkingsprocessen, de voedingsmiddelenindustrie en het hanteren van bulkmaterialen?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000VtQ1&feoid=00N0N00000Ft8Bd&refid=0EM0N000002HRWw",
+									"path": "/sfjobs/ae37d7879728ca25a3d81a16ed801891.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": {
+							"text": "omgeving 's-Hertogenbosch",
+							"place": "'s-Hertogenbosch",
+							"province": "Noord-Brabant"
+						},
+						"intro": "De toonaangevende speler in zijn sector zoekt momenteel meerdere kandidaten om hun operationele processen te ondersteunen.Ben je op zoek naar een baan met potentieel voor een vast dienstverband waarin je jouw ervaring in de voedingsindustrie kunt benutten en delen? Deze veelzijdige rol omvat taken variërend van het verpompen van bulkmaterialen tot het beheren van het verpakkingsproces. In deze allround functie wordt verwacht dat je zowel mechanische productieactiviteiten aan de lijn kunt uitvoeren als vanuit de controlekamer kunt opereren. Wekt dit jou interesse? Zie je overeenkomsten tussen jouw carrière en de vereisten voor deze functie? Solliciteer dan direct! ",
+						"description": "Waar ga jij je mee bezighouden als allround procesoperator binnen deze organisatie? <br /><ul><li>Verrichten van bedienings-, controle-, en regelwerkzaamheden;</li><li>Je voert reinigings- en administratieve werkzaamheden uit;</li><li>Eenvoudige storingen verhelpen;</li><li>Deelnemen aan verbeterteams met als doel prestaties binnen de afdeling te verbeteren;</li><li>Ontvangen, controleren, verwerken, coördineren, afvoeren en opslaan van rauwe melk/room en reststromen;</li><li>Mogelijke procesverbeteringen proactief signaleren en vertalen in verbetervoorstellen.</li></ul>",
+						"requirements": "Wie ben jij als allround procesoperator? <br /><ul><li>Je bent in het bezit technische opleiding minimaal niveau 3;</li><li>Ervaring met kwaliteitssystemen en kwaliteitsstandaarden;</li><li>Jij beschikt over technisch inzicht. Dit heb je nodig om 1e lijns onderhoud uit te voeren;</li><li>Ervaring in de levensmiddelenindustrie is een pré;</li><li>Beheersing van het Microsoft Office pakket;</li><li>Bereid om in 5-ploegendiensten te werken (2-2-2).</li></ul>",
+						"benefits": "Je komt te werken bij een professionele organisatie met volop doorgroeimogelijkheden. Daarnaast kan je als procesoperator rekenen op:<br /><ul><li>Werken binnen één van de grootste zuivelproducenten ter wereld;</li><li>Een uitstekend salaris tot € 3346,- bruto exclusief ploegentoeslag!</li><li>Werken binnen een bedrijfscultuur waar structuur meer regel dan uitzondering is;</li><li>Werken in 5 ploegen (2-2-2 systeem);</li><li>Werktijden O.07-15 M.15-23 N.23-07;</li><li>Mogelijkheid op een vast contract;</li></ul>Ben jij een ervaren operator die toe is aan een mooie uitdaging? Bel dan naar 073 203 3000, mail naar denbosch@pro-industry.nl of solliciteer direct!<br />Ben jij klaar om jouw kennis te delen met dit bedrijf? Of heb je vragen over deze vacature of is deze vacature het nét niet? Neem dan contact op met Pro Industry in 's-Hertogenbosch via 073-2033000.",
+						"sector": ["verpakking", "voedingsmiddelen"],
+						"category": ["Procesoperator", "Machineoperator", "Technisch overig"],
+						"slug": "allround-procesoperator-P093560"
+					}
+				},
+				"sort": ["Allround Procesoperator"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P095117",
+				"_score": null,
+				"_timestamp": 1703152826058,
+				"_source": {
+					"published_at": "2023-11-28T23:00:00.000Z",
+					"created_at": "2023-11-24T08:45:15.000Z",
+					"updated_at": "2023-11-24T13:37:09.000Z",
+					"status": { "exclusive": false, "internal": false },
+					"campaign": { "channels": ["drenthe", "wijster", "procesoperator"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Emmen",
+						"location": "Emmen",
+						"street": "Marktplein 138",
+						"postcode": "7811BA",
+						"telephone": "0591203000",
+						"callback_id": "61d5c3755a3c18002e31007d",
+						"email": "emmen@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Ivan Veurman",
+						"first_name": "Ivan",
+						"last_name": "Veurman",
+						"telephone": "0591-203000",
+						"email": "ivan.veurman@pro-industry.nl",
+						"title": "Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/7293V000000TXLl/F",
+							"path": "/sfcontacts/e44e1b65bc1f33c8c650f09747e63985.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000YZJVYA4",
+						"parent_id": "a0w0N000007HjXBQA0",
+						"number": "P095117",
+						"date": "2023-11-28T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["4 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 2400, "max": 3000 },
+						"driving_license": "B",
+						"hours": { "min": 36, "max": 36 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 4",
+						"hard_criteria": [
+							{ "es_structured": true, "type": "Shiftwork", "value": "3 ploegendienst", "text": "3 ploegendienst" },
+							{ "es_structured": true, "type": "Category", "value": "Procesoperator", "text": "Procesoperator" },
+							{
+								"es_structured": true,
+								"type": "Sector",
+								"value": "Overige industrieën",
+								"text": "Overige industrieën"
+							},
+							{
+								"es_structured": true,
+								"type": "Education level",
+								"value": "LBO - VMBO - MAVO",
+								"text": "LBO - VMBO - MAVO"
+							},
+							{ "es_structured": true, "type": "Languages", "value": "Nederlands", "text": "Nederlands" }
+						]
+					},
+					"igb": { "name": "Operator" },
+					"website": {
+						"label": null,
+						"title": "Allround Procesoperator",
+						"subtitle": "Heb jij interesse in een uitdagende positie binnen een van de snelstgroeiende sectoren van Nederland?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000YZJV&feoid=00N0N00000Ft8Bd&refid=0EMMI000004mkXh",
+									"path": "/sfjobs/1a6e0dafd98259876c3e29fa04602140.jpeg",
+									"format": "jpeg"
+								},
+								{
+									"src": "https://c.na88.content.force.com/servlet/rtaImage?eid=a0Fi000000YeiTg&feoid=00Ni00000061eX8&refid=0EMi0000000i598",
+									"path": "/sfjobs/7b3f8e9a1d2eefab2d6992dc55d048f9.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": []
+						},
+						"location": { "text": "omgeving Coevorden", "place": "Coevorden", "province": "Drenthe" },
+						"intro": "Ambieer jij een functie als procesoperator in de voedingsmiddelenindustrie, werkend in de 4-ploegendienst? Hierbij ontvang je een startsalaris van € 3.000,- bruto per maand, inclusief een ploegentoeslag van 25%. Je wordt onderdeel van een vooraanstaande producent van hoogwaardige dierlijke eiwitten. Via een duurzaam proces wordt slachtafval van kippen omgezet in hoogwaardige eiwitten. Dagelijks draag je bij aan verbetering, innovatie en ontwikkeling. Bovendien krijg je de gelegenheid om jezelf verder te ontplooien middels diverse opleidingen en trainingen. Is dit de uitdaging waar je naar op zoek bent? Lees dan snel verder!",
+						"description": "Onze opdrachtgever zoekt naar technisch onderlegde kandidaten die bereid zijn de handen uit de mouwen te steken. Als Procesoperator binnen deze vooraanstaande organisatie speel je een actieve rol. <br />Enkele vereisten voor deze functie zijn:<br /><ul><li>Het bezit van een diploma voor operator A.</li><li>Relevante werkervaring als procesoperator.</li><li>Een VCA-basis certificaat, of de bereidheid om dit te behalen.</li><li>Belangrijke eigenschappen zijn goede communicatieve vaardigheden en een proactieve houding.</li><li>Nauwkeurigheid en oog voor detail zijn essentieel in jouw werkwijze.</li></ul>",
+						"requirements": "Wil je een bijdrage leveren aan de wereldwijde vraag naar hoogwaardige eiwitten? Als je over de onderstaande kenmerken beschikt, kom je mogelijk in aanmerking voor deze veelzijdige en uitdagende positie:<br /><ul><li>Een denk- en werkniveau op mbo-niveau.</li><li>Ervaring als Procesoperator in de maakindustrie.</li><li>Bij voorkeur ervaring in de voedingsmiddelenindustrie.</li><li>Een proactieve en ondernemende instelling.</li><li>Een teamspeler pur sang die stressbestendig is.</li></ul>",
+						"benefits": "Als Procesoperator draag je aanzienlijke verantwoordelijkheden, en daar staan aantrekkelijke arbeidsvoorwaarden tegenover, zoals:<br /><ul><li>Een marktconform salaris van € 3.000,- bruto per maand, inclusief een ploegentoeslag van 25%.</li><li>25 vakantiedagen en 8,33% vakantiegeld.</li><li>Reiskostenvergoeding van € 0,21 per kilometer.</li><li>Mogelijkheid tot een vast dienstverband bij goede prestaties.</li><li>Talrijke ontwikkelingskansen via cursussen en opleidingen.</li><li>Werkuren: 06:00 - 14:00 / 14:00 - 22:00 / 22:00 - 06:00.</li></ul><br />Ben je geïnteresseerd in een uitdagende rol als Procesoperator in een van de snelstgroeiende en best betaalde industrieën van Nederland? Aarzel niet om contact met ons op te nemen via 0591203000 of emmen@pro-industry.nl",
+						"sector": ["voedingsmiddelen"],
+						"category": ["Procesoperator"],
+						"slug": "allround-procesoperator-P095117"
+					}
+				},
+				"sort": ["Allround Procesoperator"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P094517",
+				"_score": null,
+				"_timestamp": 1703152826050,
+				"_source": {
+					"published_at": "2023-11-20T23:00:00.000Z",
+					"created_at": "2023-11-14T09:53:20.000Z",
+					"updated_at": "2023-11-14T09:54:09.000Z",
+					"status": { "exclusive": true, "internal": false },
+					"campaign": { "channels": ["exclusive", "renkum", "procesoperator"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Arnhem",
+						"location": "Arnhem",
+						"street": "Rijnkade 30",
+						"postcode": "6811HA",
+						"telephone": "0267440744",
+						"callback_id": "61682c71fafcd9002ee8e9ad",
+						"email": "arnhem@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Joeri van Koesveld",
+						"first_name": "Joeri",
+						"last_name": "van Koesveld",
+						"telephone": "+31 (0)26 744 0744",
+						"email": "joeri.vankoesveld@pro-industry.nl",
+						"title": "Senior Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI0000000axx/F",
+							"path": "/sfcontacts/da4917b6b25b18c982f8cb87e5a356c7.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000XdFVYA0",
+						"parent_id": "a0w0N000007HnywQAC",
+						"number": "P094517",
+						"date": "2023-11-20T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["5 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 3000, "max": 4000 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 33.6, "max": 33.6 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 3",
+						"hard_criteria": [
+							{ "es_structured": true, "type": "Shiftwork", "value": "5 ploegendienst", "text": "5 ploegendienst" },
+							{ "es_structured": true, "type": "Category", "value": "Procesoperator", "text": "Procesoperator" },
+							{
+								"es_structured": true,
+								"type": "Sector",
+								"value": "Papier- en kartonindustrie",
+								"text": "Papier- en kartonindustrie"
+							},
+							{
+								"es_structured": true,
+								"type": "Education level",
+								"value": "HAVO - VWO - MBO",
+								"text": "HAVO - VWO - MBO"
+							},
+							{ "es_structured": true, "type": "Languages", "value": "Nederlands", "text": "Nederlands" },
+							{ "es_structured": true, "type": "Years of experience", "value": "1 - 3", "text": "1 - 3" },
+							{ "es_structured": true, "type": "Hours per week", "value": "32 - 40", "text": "32 - 40" }
+						]
+					},
+					"igb": { "name": "Proces Operator" },
+					"website": {
+						"label": null,
+						"title": "Allround Procesoperator Pulp & Energie",
+						"subtitle": "Zoek jij een baan waarin je werkplezier, opleidingen, uitdaging en een mooi salaris wil combineren?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000XdFV&feoid=00N0N00000Ft8Bd&refid=0EMMI000001a5v4",
+									"path": "/sfjobs/8067520a2b5b549bbf7e10a1762082cb.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": [
+								{
+									"type": "video",
+									"thumbnail_url": "https://i.vimeocdn.com/video/521408004-c7a4e71989396385fc55c924be58084e7603a1af76975ab828430efe76811d8e-d_640",
+									"video_id": 129790348,
+									"provider_url": "https://vimeo.com/",
+									"uri": "/videos/129790348",
+									"height": 360,
+									"width": 640,
+									"duration": 113,
+									"version": "1.0",
+									"author_url": "https://vimeo.com/user39747688",
+									"title": "Parenco",
+									"description": "",
+									"provider": "vimeo"
+								}
+							]
+						},
+						"location": { "text": "omgeving Nijmegen", "place": "Nijmegen", "province": "Gelderland" },
+						"intro": "Heb jij affiniteit met papier en karton en heb je daarnaast enkele jaren ervaring in de wereld van pulp en/of energie? Kijk dan snel verder, want Parenco is op zoek naar een allround procesoperator Pulp &amp; Energie!",
+						"description": "Jij gaat je voornamelijk bezighouden met het controleren en bewaken van de verwerking van oud papier tot pulp vanuit de centrale controlekamer. Na verloop van tijd ben je ook verantwoordelijk voor het controleren van de optimale procesgang van stroom, elektriciteit, proceslucht en water.<br><br>Je takenpakket als Allround Procesoperator Pulp &amp; Energie komt er als volgt uit te zien:  <ul><li>Je controleert en stelt procesinstellingen bij zoals drukken, temperaturen, geleverde/verbruikte vermogens en (chemicaliën)doseringen;</li><li>Je ziet toe op het correct functioneren van apparatuur en installaties;</li><li>Je verleent ondersteuning bij procesverstoringen en, indien nodig, schakel je monteurs in bij technische storingen;</li><li>Je bent mede verantwoordelijk voor de afvalwaterzuivering;</li><li>Je levert een inbreng ter verbetering van installaties en geautomatiseerde systemen in het kader van de bedrijfszekerheid en efficiëntie; het doen van voorstellen en suggesties is hier onderdeel van;</li><li>Je neemt deel aan periodiek werkoverleg en bent hierin actief betrokken;</li><li>Heftruck- en/of multiloaderwerkzaamheden behoren ook tot je taken.</li></ul>",
+						"requirements": "Natuurlijk moet je in deze vacature goed kunnen communiceren, een goede werkmentaliteit hebben en logisch kunnen nadenken. Overige eisen zijn: <ul><li>MTS Procestechniek, Vapro B/C, AOT of minimaal een afgeronde technische mbo-opleiding op niveau 3. Bij niveau 3 maakt een assessment onderdeel uit van de selectie waaruit niveau 4 werk- en denkniveau moet blijken;</li><li>Je vindt het een uitdaging om zowel werkzaam te zijn in de energiecentrale als in de pulpbereiding. Ervaring in deze sectoren is een grote pre;</li><li>Je hebt een drive en mindset tot continue verbetering zowel in kwalitatieve als in kwantitatieve werkprocessen;</li><li>Je bent bereid tot het volgen van een interne (Nationaal Erkende) opleiding (gelijk aan MBO 4 / Vapro C);</li><li>Je bent in het bezit van Brandwacht, Heftruckcertificaat en VCA*-certificering of je bent bereid deze te behalen.</li></ul>",
+						"benefits": "Parenco blijft een geweldige werkgever. De voorwaarden zijn goed, er wordt persoonlijk rekening gehouden met elke werknemer en beloftes worden nagekomen. Overige voorwaarden: <ul><li>Goed salaris!;</li><li>Opleiding op MBO 4/VAPRO C niveau;</li><li>Werken in de vijfploegendienst (30% toeslag);</li><li>In een hecht team een fantastisch product produceren;</li><li>Voldoende uitdaging;</li><li>Mogelijkheid om door te groeien in functie, maar ook in opleiding;</li><li>Uiteraard intentie tot vast dienstverband!</li></ul>",
+						"sector": ["papier en karton"],
+						"category": ["Procesoperator"],
+						"slug": "allround-procesoperator-pulp-and-energie-P094517"
+					}
+				},
+				"sort": ["Allround Procesoperator Pulp & Energie"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P094518",
+				"_score": null,
+				"_timestamp": 1703152826050,
+				"_source": {
+					"published_at": "2023-11-27T23:00:00.000Z",
+					"created_at": "2023-11-14T09:54:49.000Z",
+					"updated_at": "2023-11-28T11:54:19.000Z",
+					"status": { "exclusive": true, "internal": false },
+					"campaign": { "channels": ["exclusive", "renkum", "procesoperator"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Arnhem",
+						"location": "Arnhem",
+						"street": "Rijnkade 30",
+						"postcode": "6811HA",
+						"telephone": "0267440744",
+						"callback_id": "61682c71fafcd9002ee8e9ad",
+						"email": "arnhem@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Joeri van Koesveld",
+						"first_name": "Joeri",
+						"last_name": "van Koesveld",
+						"telephone": "+31 (0)26 744 0744",
+						"email": "joeri.vankoesveld@pro-industry.nl",
+						"title": "Senior Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI0000000axx/F",
+							"path": "/sfcontacts/da4917b6b25b18c982f8cb87e5a356c7.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000XdH7YAK",
+						"parent_id": "a0w0N000007HnywQAC",
+						"number": "P094518",
+						"date": "2023-11-27T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["5 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 3000, "max": 4000 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 33.6, "max": 33.6 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 3",
+						"hard_criteria": [
+							{ "es_structured": true, "type": "Shiftwork", "value": "5 ploegendienst", "text": "5 ploegendienst" },
+							{ "es_structured": true, "type": "Category", "value": "Procesoperator", "text": "Procesoperator" },
+							{
+								"es_structured": true,
+								"type": "Sector",
+								"value": "Papier- en kartonindustrie",
+								"text": "Papier- en kartonindustrie"
+							},
+							{
+								"es_structured": true,
+								"type": "Education level",
+								"value": "HAVO - VWO - MBO",
+								"text": "HAVO - VWO - MBO"
+							},
+							{ "es_structured": true, "type": "Languages", "value": "Nederlands", "text": "Nederlands" },
+							{ "es_structured": true, "type": "Years of experience", "value": "1 - 3", "text": "1 - 3" },
+							{ "es_structured": true, "type": "Hours per week", "value": "32 - 40", "text": "32 - 40" }
+						]
+					},
+					"igb": { "name": "Proces Operator" },
+					"website": {
+						"label": null,
+						"title": "Allround Procesoperator Pulp & Energie",
+						"subtitle": "Zoek jij een baan waarin je werkplezier, opleidingen, uitdaging en een mooi salaris wil combineren?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000XdH7&feoid=00N0N00000Ft8Bd&refid=0EMMI000001a5v4",
+									"path": "/sfjobs/1234fa044c50b82d347af26552b543ef.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": [
+								{
+									"type": "video",
+									"thumbnail_url": "https://i.vimeocdn.com/video/521408004-c7a4e71989396385fc55c924be58084e7603a1af76975ab828430efe76811d8e-d_640",
+									"video_id": 129790348,
+									"provider_url": "https://vimeo.com/",
+									"uri": "/videos/129790348",
+									"height": 360,
+									"width": 640,
+									"duration": 113,
+									"version": "1.0",
+									"author_url": "https://vimeo.com/user39747688",
+									"title": "Parenco",
+									"description": "",
+									"provider": "vimeo"
+								}
+							]
+						},
+						"location": { "text": "omgeving Nijmegen", "place": "Nijmegen", "province": "Gelderland" },
+						"intro": "Heb jij affiniteit met papier en karton en heb je daarnaast enkele jaren ervaring in de wereld van pulp en/of energie? Kijk dan snel verder, want Parenco is op zoek naar een allround procesoperator Pulp &amp; Energie!",
+						"description": "<strong>Wat ga je doen?</strong><ul><li>Het controleren en bewaken van de verwerking van oud papier tot pulp.</li><li>Je ziet toe op het functioneren van de apparaten. De instellingen stel je bij waar nodig.</li><li>Je schakelt monteurs in bij technische storingen.</li><li>Je komt met ideeën over het verbeteren van installaties m.b.t. effectiviteit en de efficiëntie.</li><li>Je doet mee aan het werkoverleg.</li><li>Heftruckwerkzaamheden.</li><li>Je bent mede verantwoordelijk voor de afvalwaterzuivering.</li></ul>",
+						"requirements": "<strong>Wie ben jij?</strong><ul><li>Je hebt mbo-3 werk- en denkniveau met een technische achtergrond.</li><li>Je vindt het leuk om mee te denken over (proces)optimalisatie.</li><li>Je bent bereid om de opleiding Vapro C te volgen.</li><li>Je bent in het bezit van een heftruckcertificaat, VCA en Brandwacht of bereid deze te behalen.</li></ul>",
+						"benefits": "<strong>Wat krijg ik ervoor terug?</strong><ul><li>Een uitdagende baan in de 5-ploegendienst als procesoperator.</li><li>Een brutosalaris tussen de € 3.000 en € 4.000 per maand inclusief ploegentoeslag.</li><li>Opleiding op MBO 4/VAPRO C niveau.</li><li>Ontwikkelmogelijkheden m.b.v. trainingen.</li></ul>",
+						"sector": ["papier en karton"],
+						"category": ["Procesoperator"],
+						"slug": "allround-procesoperator-pulp-and-energie-P094518"
+					}
+				},
+				"sort": ["Allround Procesoperator Pulp & Energie"]
+			},
+			{
+				"_index": "pro_sf_jobs_1703152803883",
+				"_type": "job",
+				"_id": "P094519",
+				"_score": null,
+				"_timestamp": 1703152826050,
+				"_source": {
+					"published_at": "2023-12-04T23:00:00.000Z",
+					"created_at": "2023-11-14T09:57:50.000Z",
+					"updated_at": "2023-11-14T09:59:29.000Z",
+					"status": { "exclusive": true, "internal": false },
+					"campaign": { "channels": ["exclusive", "renkum", "procesoperator"], "exclude": false, "weight": 0 },
+					"branch": {
+						"name": "Arnhem",
+						"location": "Arnhem",
+						"street": "Rijnkade 30",
+						"postcode": "6811HA",
+						"telephone": "0267440744",
+						"callback_id": "61682c71fafcd9002ee8e9ad",
+						"email": "arnhem@pro-industry.nl"
+					},
+					"recruiter": {
+						"name": "Joeri van Koesveld",
+						"first_name": "Joeri",
+						"last_name": "van Koesveld",
+						"telephone": "+31 (0)26 744 0744",
+						"email": "joeri.vankoesveld@pro-industry.nl",
+						"title": "Senior Accountmanager",
+						"is_active": true,
+						"about_text": null,
+						"photo": {
+							"src": "https://connexys-3858.file.force.com/profilephoto/729MI0000000axx/F",
+							"path": "/sfcontacts/da4917b6b25b18c982f8cb87e5a356c7.jpeg",
+							"format": "jpeg"
+						}
+					},
+					"vacancy": {
+						"id": "a0wMI000000XdIjYAK",
+						"parent_id": "a0w0N000007HnywQAC",
+						"number": "P094519",
+						"date": "2023-12-04T23:00:00.000Z",
+						"employment_type": "full-time",
+						"career_level": "Professional",
+						"contract_type": "Tijdelijk met uitzicht op vast",
+						"shiftwork": ["5 ploegendienst"],
+						"years_experience": { "min": 1, "max": 3 },
+						"salary_indication": { "min": 3000, "max": 4000 },
+						"driving_license": "n.v.t.",
+						"hours": { "min": 33.6, "max": 33.6 },
+						"languages": ["Nederlands"],
+						"education_level": "mbo niveau 3",
+						"hard_criteria": [
+							{ "es_structured": true, "type": "Shiftwork", "value": "5 ploegendienst", "text": "5 ploegendienst" },
+							{ "es_structured": true, "type": "Category", "value": "Procesoperator", "text": "Procesoperator" },
+							{
+								"es_structured": true,
+								"type": "Sector",
+								"value": "Papier- en kartonindustrie",
+								"text": "Papier- en kartonindustrie"
+							},
+							{
+								"es_structured": true,
+								"type": "Education level",
+								"value": "HAVO - VWO - MBO",
+								"text": "HAVO - VWO - MBO"
+							},
+							{ "es_structured": true, "type": "Languages", "value": "Nederlands", "text": "Nederlands" },
+							{ "es_structured": true, "type": "Years of experience", "value": "1 - 3", "text": "1 - 3" },
+							{ "es_structured": true, "type": "Hours per week", "value": "32 - 40", "text": "32 - 40" }
+						]
+					},
+					"igb": { "name": "Proces Operator" },
+					"website": {
+						"label": null,
+						"title": "Allround Procesoperator Pulp & Energie",
+						"subtitle": "Heb jij een Vapro B, VAPA B, Operator B óf een technisch mbo niveau 3 diploma op zak?",
+						"media": {
+							"images": [
+								{
+									"src": "https://connexys-3858.file.force.com/servlet/rtaImage?eid=a0wMI000000XdIj&feoid=00N0N00000Ft8Bd&refid=0EMMI000001a5v4",
+									"path": "/sfjobs/91608ec3301a0f288060ca4615bcc5a0.jpeg",
+									"format": "jpeg"
+								}
+							],
+							"videos": [
+								{
+									"type": "video",
+									"thumbnail_url": "https://i.vimeocdn.com/video/521408004-c7a4e71989396385fc55c924be58084e7603a1af76975ab828430efe76811d8e-d_640",
+									"video_id": 129790348,
+									"provider_url": "https://vimeo.com/",
+									"uri": "/videos/129790348",
+									"height": 360,
+									"width": 640,
+									"duration": 113,
+									"version": "1.0",
+									"author_url": "https://vimeo.com/user39747688",
+									"title": "Parenco",
+									"description": "",
+									"provider": "vimeo"
+								}
+							]
+						},
+						"location": { "text": "omgeving Nijmegen", "place": "Nijmegen", "province": "Gelderland" },
+						"intro": "Wil jij graag doorgroeien, maar krijg je daar op dit moment niet de kans voor? Ben jij toe aan de volgende stap in jouw persoonlijke ontwikkeling? Ben jij in het bezit van een technisch mbo niveau 3 diploma en heb je ervaring opgedaan in de procestechniek? Pak dan deze unieke kans om een VAPA C opleiding te gaan volgen! Je gaat aan de slag als procesoperator in de 5 ploegendienst binnen de papier- en kartonindustrie, waarbij je na het inwerktraject zal starten aan deze mbo niveau 4 opleiding. Daarnaast ga je een uitstekend salaris verdienen, dat wel kan oplopen tot € 4.000,- bruto in de maand, inclusief 30% ploegentoeslag. Wil jij papier leren maken? Lees dan snel verder!",
+						"description": "Jij gaat je voornamelijk bezighouden met het controleren en bewaken van de verwerking van oud papier tot pulp vanuit de centrale controlekamer. Na verloop van tijd ben je ook verantwoordelijk voor het controleren van de optimale procesgang van stroom, elektriciteit, proceslucht en water. Na het uitgebreide inwerktraject, zal je gaan starten met de VAPA C opleiding op mbo niveau 4.<br />Je takenpakket als Allround Procesoperator Pulp &amp; Energie komt er als volgt uit te zien: <ul><li>Je controleert en stelt procesinstellingen bij zoals drukken, temperaturen, geleverde/verbruikte vermogens en (chemicaliën)doseringen.</li><li>Je ziet toe op het correct functioneren van apparatuur en installaties.</li><li>Je verleent ondersteuning bij procesverstoringen en, indien nodig, schakel je monteurs in bij technische storingen.</li><li>Je bent mede verantwoordelijk voor de afvalwaterzuivering.</li><li>Je levert een inbreng ter verbetering van installaties en geautomatiseerde systemen in het kader van de bedrijfszekerheid en efficiëntie; het doen van voorstellen en suggesties is hier onderdeel van.</li><li>Je neemt deel aan periodiek werkoverleg en bent hierin actief betrokken.</li></ul>",
+						"requirements": "Natuurlijk moet je in deze functie goed kunnen communiceren, een goede werkmentaliteit hebben en logisch kunnen nadenken. Overige eisen zijn:<ul><li>MTS Procestechniek, Vapro B, VAPA B, AOT of minimaal een afgeronde technische mbo-opleiding op niveau 3. Bij niveau 3 maakt een assessment onderdeel uit van de selectie waaruit niveau 4 werk- en denkniveau moet blijken.</li><li>Je vindt het een uitdaging om zowel werkzaam te zijn in de energiecentrale als in de pulpbereiding. Ervaring in deze sectoren is een grote pre.</li><li>Je hebt een drive en mindset tot continue verbetering zowel in kwalitatieve als in kwantitatieve werkprocessen.</li><li>Je bent bereid tot het volgen van een VAPA C opleiding (gelijk aan MBO 4 / Vapro C).</li><li>Je bent in het bezit van Brandwacht, heftruckcertificaat en VCA*-certificering of je bent bereid deze te behalen.</li></ul>",
+						"benefits": "Als jij matcht met alle bovenstaande criteria, dan krijg je daar natuurlijk ook iets voor terug:<ul><li>Na het inwerktraject ga je starten aan de VAPA C opleiding op mbo niveau 4. Deze wordt volledig voor je betaald!</li><li>Een uitstekend salaris, tussen de € 3.000,- en € 4.000,- bruto per maand, inclusief 30% ploegentoeslag.</li><li>Vergoeding van reiskosten.</li><li>Werken in de 5 ploegendienst als procesoperator binnen de papier- en kartonindustrie.</li><li>Voldoende uitdaging, ontwikkel- en doorgroeimogelijkheden.</li><li>Uiteraard de intentie tot een vast dienstverband!</li></ul><br />Ben jij enthousiast geworden en stel jij jouw eigen ontwikkeling voorop? <strong>Pak dan deze kans en solliciteer direct!</strong>",
+						"sector": ["papier en karton"],
+						"category": ["Procesoperator"],
+						"slug": "allround-procesoperator-pulp-and-energie-P094519"
+					}
+				},
+				"sort": ["Allround Procesoperator Pulp & Energie"]
+			}
+		]
+	},
+	"aggregations": {}
+}

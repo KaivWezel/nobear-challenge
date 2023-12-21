@@ -1,0 +1,35 @@
+[
+	{
+		"title": "sector",
+		"values": [
+			"voedingsmiddelen",
+			"grafisch en drukkerij",
+			"hout en isolatiemateriaal",
+			"machines en assemblage",
+			"rubber en kunststof",
+			"metaal",
+			"verpakking"
+		]
+	},
+	{
+		"title": "functie",
+		"values": [
+			"machineoperator",
+			"productie",
+			"logistiek",
+			"technisch overig",
+			"procesoperator",
+			"leidinggevend",
+			"technische dienst",
+			"laboratorium",
+			"engineering",
+			"office",
+			"kwaliteit"
+		]
+	},
+	{
+		"title": "ploegendienst",
+		"values": ["dagdienst", "2 ploegendienst", "3 ploegendienst", "5 ploegendienst", "4 ploegendienst", "nachtdienst"]
+	},
+	{ "title": "salaris", "values": ["2500", "2500 - 3000", "3000 - 3500", "3500 - 4000", "4000 - 4500"] }
+]
