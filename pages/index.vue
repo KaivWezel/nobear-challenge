@@ -10,7 +10,7 @@
 					@update:category="updateQuery" />
 			</div>
 			<div class="list">
-				<VacancyCard v-for="(hit, index) in data.hits.hits" :hit="hit" :index="index" />
+				<VacancyCard v-for="(hit, index) in data.jobs.hits.hits" :hit="hit" :index="index" />
 			</div>
 		</div>
 	</div>
@@ -19,18 +19,16 @@
 import filters from "~/assets/data/filters.json";
 
 const router = useRouter();
-
 const pagenum = ref(1);
+const query = ref({});
 
-const { data } = await useFetch(`https://data.pro-cluster.com/jobs`, {
+const { data } = await useFetch(`/api/jobs`, {
 	query: {
-		perpage: 13,
+		perpage: 50,
 		pagenum,
 		aggs: true,
 	},
 });
-
-const query = ref({});
 
 function updateQuery({ category, values }) {
 	query.value[category] = values;
