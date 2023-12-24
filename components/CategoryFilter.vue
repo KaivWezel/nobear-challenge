@@ -1,6 +1,6 @@
 <template>
 	<div class="filterCategory">
-		<h3>Category</h3>
+		<h3>{{ category }}</h3>
 		<span>{{ checkedValues }}</span>
 		<div class="filterCategory__values">
 			<div class="filterCategory__value" v-for="(value, index) in props.values" :key="index">

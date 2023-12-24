@@ -19,26 +19,16 @@
 import filters from "~/assets/data/filters.json";
 
 const router = useRouter();
-const pagenum = ref(1);
-const query = ref({});
+const route = useRoute();
 
-const { data } = await useFetch(`/api/jobs`, {
-	query: {
-		perpage: 50,
-		pagenum,
-		aggs: true,
-	},
-});
+const activeQuery = ref([]);
+
+const { data } = useFetch("/api/jobs", { query: activeQuery.value });
 
 function updateQuery({ category, values }) {
-	query.value[category] = values;
-	router.push({ query: query.value });
+	activeQuery.value[category] = values;
+	router.push({ query: activeQuery.value });
 }
-
-watch(pagenum, () => {
-	console.log(data.value.hits.hits[0]);
-	console.log(useQuery());
-});
 </script>
 <style lang="scss">
 h1 {
