@@ -43,4 +43,10 @@ h1 {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
 }
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
 </style>
