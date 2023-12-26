@@ -10,7 +10,7 @@
 					@update:category="updateQuery" />
 			</div>
 			<div class="list">
-				<VacancyCard v-for="(hit, index) in data.jobs.hits.hits" :hit="hit" :index="index" />
+				<VacancyCard v-for="(hit, index) in filtered" :hit="hit" :index="index" />
 			</div>
 		</div>
 	</div>
@@ -25,25 +25,6 @@ const activeQuery = ref([]);
 
 const { data } = await useFetch("/api/jobs", { query: activeQuery.value });
 
-async function allCategories() {
-	let temp = [];
-	data.value.jobs.hits.hits.forEach((job) => {
-		const filter = job._source.website.category;
-		const values = Object.values(filter);
-		if (values.some((r) => temp.includes(r))) {
-			console.log("exists");
-		} else {
-			temp.push(...values);
-		}
-	});
-
-	console.log(temp);
-}
-
-onMounted(() => {
-	allCategories();
-});
-
 const filtered = useFiltered();
 
 function updateQuery({ category, values }) {
@@ -52,7 +33,7 @@ function updateQuery({ category, values }) {
 }
 
 watch(filtered, () => {
-	console.log(filtered);
+	// console.log(filtered);
 });
 </script>
 <style lang="scss">
