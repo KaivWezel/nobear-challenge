@@ -13,8 +13,8 @@
 				<VacancyCard v-for="(hit, index) in pageItems" :hit="hit" :index="index" />
 			</div>
 			<div class="pagination">
-				<button @click="page++">next</button>
-				<button @click="page--">prev</button>
+				<button v-show="page < totalPages" @click="page++">next</button>
+				<button v-show="page > 1" @click="page--">prev</button>
 			</div>
 		</div>
 	</div>
@@ -32,6 +32,7 @@ const { data } = await useFetch("/api/jobs", { query: activeQuery.value });
 
 const filtered = useFiltered();
 const pageItems = computed(() => filtered.value?.slice((page.value - 1) * perPage, page.value * perPage));
+const totalPages = computed(() => Math.ceil(filtered.value?.length / perPage));
 
 function updateQuery({ category, values }) {
 	activeQuery.value[category] = values;
