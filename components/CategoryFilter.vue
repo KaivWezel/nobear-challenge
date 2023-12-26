@@ -3,12 +3,12 @@
 		<h3 class="filterCategory__title">{{ category }}</h3>
 
 		<div class="filterCategory__values">
-			<div class="filterCategory__value" v-for="(value, index) in props.values" :key="index">
-				<div class="filter" v-if="index + 1 <= visibleAmount">
+			<template v-for="(value, index) in props.values" :key="index">
+				<div class="filterCategory__value" v-if="index + 1 <= visibleAmount">
 					<input type="checkbox" :id="value" :value="value" v-model="checkedValues" />
 					<label :for="value">{{ value }}</label>
 				</div>
-			</div>
+			</template>
 		</div>
 
 		<button @click="showMore = !showMore">{{ showMore ? "Minder tonen" : "Alles tonen" }}</button>
