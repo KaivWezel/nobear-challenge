@@ -17,12 +17,14 @@ export default function useFiltered() {
 			const jobShift = job._source.vacancy.shiftwork;
 			const jobSalary = job._source.vacancy.salary_indication;
 
-			if (filterFunction.length != 0) {
+			if (filterFunction.length) {
 				return jobFunction.some((f) => filterFunction.includes(f));
+			} else {
+				return true;
 			}
 		});
 
-		filtered.value = toValue(temp);
+		filtered.value = temp;
 	}
 
 	watch(
