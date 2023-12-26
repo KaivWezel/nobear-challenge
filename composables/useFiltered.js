@@ -17,7 +17,7 @@ export default function useFiltered() {
 			const jobShift = job._source.vacancy.shiftwork;
 			const jobSalary = job._source.vacancy.salary_indication;
 
-			if (filterFunction.length) {
+			if (filterFunction) {
 				return jobFunction.some((f) => filterFunction.includes(f));
 			} else {
 				return true;
