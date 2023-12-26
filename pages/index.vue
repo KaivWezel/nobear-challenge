@@ -10,7 +10,11 @@
 					@update:category="updateQuery" />
 			</div>
 			<div class="list">
-				<VacancyCard v-for="(hit, index) in filtered" :hit="hit" :index="index" />
+				<VacancyCard v-for="(hit, index) in pageItems" :hit="hit" :index="index" />
+			</div>
+			<div class="pagination">
+				<button @click="page++">next</button>
+				<button @click="page--">prev</button>
 			</div>
 		</div>
 	</div>
@@ -19,22 +23,20 @@
 import filters from "~/assets/data/filters.json";
 import useFiltered from "~/composables/useFiltered";
 const router = useRouter();
-const route = useRoute();
 
+const perPage = 10;
+const page = ref(1);
 const activeQuery = ref([]);
 
 const { data } = await useFetch("/api/jobs", { query: activeQuery.value });
 
 const filtered = useFiltered();
+const pageItems = computed(() => filtered.value?.slice((page.value - 1) * perPage, page.value * perPage));
 
 function updateQuery({ category, values }) {
 	activeQuery.value[category] = values;
 	router.push({ query: activeQuery.value });
 }
-
-watch(filtered, () => {
-	// console.log(filtered);
-});
 </script>
 <style lang="scss">
 h1 {
