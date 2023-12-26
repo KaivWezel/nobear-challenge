@@ -3,10 +3,10 @@ export default function useFiltered() {
 	const filtered = ref(null);
 
 	async function filterJobs(query) {
-		const filterFunction = query?.functie;
-		const filterSector = query?.sector;
-		const filterShift = query?.ploegendienst;
-		const filterSalary = query?.salaris;
+		const filterFunction = query?.functie || [];
+		const filterSector = query?.sector || [];
+		const filterShift = query?.ploegendienst || [];
+		const filterSalary = query?.salaris | [];
 
 		const { data } = await useFetch("/api/jobs");
 
@@ -17,7 +17,7 @@ export default function useFiltered() {
 			const jobShift = job._source.vacancy.shiftwork;
 			const jobSalary = job._source.vacancy.salary_indication;
 
-			if (filterFunction) {
+			if (filterFunction.length) {
 				return jobFunction.some((f) => filterFunction.includes(f));
 			} else {
 				return true;

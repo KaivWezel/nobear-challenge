@@ -27,12 +27,14 @@ const vacancy = computed(() => props.hit._source.vacancy);
 <style lang="scss" scoped>
 .vacancyCard {
 	display: block;
-	border: 1px solid black;
+	border: 1px solid rgba(black, 0.1);
 	padding: 2.5rem 2rem;
 	padding-right: 6rem;
+	border-radius: 4px;
 	text-decoration: none;
 	position: relative;
 	color: black;
+	background-color: white;
 
 	&:visited {
 		color: black;

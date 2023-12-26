@@ -1,7 +1,7 @@
 <template>
 	<div class="filterCategory">
-		<h3>{{ category }}</h3>
-		<span>{{ checkedValues }}</span>
+		<h3 class="filterCategory__title">{{ category }}</h3>
+
 		<div class="filterCategory__values">
 			<div class="filterCategory__value" v-for="(value, index) in props.values" :key="index">
 				<div class="filter" v-if="index + 1 <= visibleAmount">
@@ -10,7 +10,8 @@
 				</div>
 			</div>
 		</div>
-		<button @click="showMore = !showMore">Show more</button>
+
+		<button @click="showMore = !showMore">{{ showMore ? "Minder tonen" : "Alles tonen" }}</button>
 	</div>
 </template>
 <script setup>
@@ -50,4 +51,24 @@ watch(checkedValues, updateFilter);
 
 const emit = defineEmits(["update:category"]);
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+.filterCategory {
+	&__title {
+		margin-bottom: 0.5rem;
+	}
+
+	&__values {
+		margin-bottom: 1rem;
+	}
+
+	&__value {
+		margin-bottom: 0.25rem;
+
+		input {
+			display: inline-block;
+			margin-right: 0.5rem;
+			padding: 4rem;
+		}
+	}
+}
+</style>
