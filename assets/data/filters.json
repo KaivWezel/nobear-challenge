@@ -2,20 +2,21 @@
 	{
 		"title": "sector",
 		"values": [
-			"voedingsmiddelen",
-			"grafisch en drukkerij",
+			"Voedingsmiddelen",
+			"Grafisch en drukkerij",
 			"hout en isolatiemateriaal",
 			"machines en assemblage",
 			"rubber en kunststof",
 			"metaal",
-			"verpakking"
+			"verpakking",
+			"beton en keramisch"
 		]
 	},
 	{
 		"title": "functie",
 		"values": [
 			"machineoperator",
-			"productie",
+			"Productie",
 			"logistiek",
 			"technisch overig",
 			"procesoperator",
