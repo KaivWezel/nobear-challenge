@@ -12,20 +12,17 @@
 			"beton en keramisch"
 		]
 	},
+
 	{
 		"title": "functie",
 		"values": [
-			"machineoperator",
+			"Machineoperator",
 			"Productie",
-			"logistiek",
-			"technisch overig",
-			"procesoperator",
-			"leidinggevend",
-			"technische dienst",
-			"laboratorium",
-			"engineering",
-			"office",
-			"kwaliteit"
+			"Technisch overig",
+			"Technische dienst",
+			"Procesoperator",
+			"Logistiek",
+			"Laboratorium"
 		]
 	},
 	{
