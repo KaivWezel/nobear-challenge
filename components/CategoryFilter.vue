@@ -5,8 +5,8 @@
 		<div class="filterCategory__values">
 			<template v-for="(value, index) in props.values" :key="index">
 				<div class="filterCategory__value" v-if="index + 1 <= visibleAmount">
-					<input type="checkbox" :id="value" :value="value" v-model="checkedValues" />
-					<label :for="value">{{ value }}</label>
+					<input type="checkbox" :id="value.text" :value="value.value" v-model="checkedValues" />
+					<label :for="value.text">{{ value.text }}</label>
 				</div>
 			</template>
 		</div>
