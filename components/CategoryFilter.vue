@@ -1,6 +1,6 @@
 <template>
 	<div class="filterCategory">
-		<h3 class="filterCategory__title">{{ category }}</h3>
+		<h3 class="filterCategory__title">{{ category.toUpperCase() }}</h3>
 
 		<div class="filterCategory__values">
 			<template v-for="(value, index) in props.values" :key="index">
@@ -11,7 +11,7 @@
 			</template>
 		</div>
 
-		<button @click="showMore = !showMore">{{ showMore ? "Minder tonen" : "Alles tonen" }}</button>
+		<button class="showMore" @click="showMore = !showMore">{{ showMore ? "Minder tonen" : "Alles tonen" }}</button>
 	</div>
 </template>
 <script setup>
@@ -52,15 +52,18 @@ watch(checkedValues, updateFilter);
 const emit = defineEmits(["update:category"]);
 </script>
 <style lang="scss">
+@import "~/assets/styles/main.scss";
+
 .filterCategory {
 	margin-bottom: 2rem;
 
 	&__title {
+		position: relative;
+		display: inline-block;
 		margin-bottom: 0.5rem;
 	}
 
 	&__values {
-		margin-bottom: 1rem;
 	}
 
 	&__value {
@@ -71,6 +74,14 @@ const emit = defineEmits(["update:category"]);
 			margin-right: 0.5rem;
 			padding: 4rem;
 		}
+	}
+
+	.showMore {
+		all: unset;
+		font-size: 0.8rem;
+		color: $color-black;
+		text-decoration: underline;
+		cursor: pointer;
 	}
 }
 </style>
