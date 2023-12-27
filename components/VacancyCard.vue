@@ -8,7 +8,7 @@
 			<div class="location">{{ website.location.place }}</div>
 			<div class="salary">{{ vacancy.salary_indication.min }} tot {{ vacancy.salary_indication.max }}</div>
 			<div class="hours">{{ vacancy.shiftwork[0] }}</div>
-			<div class="sector">{{ website.sector?.[0] }}</div>
+			<div class="sector">{{ website.category?.[0] }}</div>
 		</div>
 		<div class="vacancyCard__links">
 			<nuxt-link :to="'/jobs/' + hit._id">Bekijk vacature</nuxt-link>
@@ -25,6 +25,7 @@ const website = computed(() => props.hit._source.website);
 const vacancy = computed(() => props.hit._source.vacancy);
 </script>
 <style lang="scss" scoped>
+@import "~/assets/styles/main.scss";
 .vacancyCard {
 	display: block;
 	border: 1px solid rgba(black, 0.1);
@@ -34,13 +35,12 @@ const vacancy = computed(() => props.hit._source.vacancy);
 	border-radius: 4px;
 	text-decoration: none;
 	position: relative;
-	color: black;
-	background-color: white;
+	color: $color-text;
+	background-color: $color-bg;
 
-	box-shadow: 2px 2px 10px 2px rgba(black, 0.1);
+	box-shadow: 2px 2px 10px 2px rgba(white, 0.1);
 
 	&:visited {
-		color: black;
 	}
 
 	&__title {

@@ -40,13 +40,13 @@ onMounted(() => {
 }
 
 nav {
-	background-color: $color-black;
+	background-color: $color-bg;
 	padding: 1rem 2rem;
-	color: $color-white;
+	color: $color-text;
 
 	a,
 	a:visited {
-		color: $color-white;
+		color: $color-text;
 		text-decoration: none;
 	}
 }

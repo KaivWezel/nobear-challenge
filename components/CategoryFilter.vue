@@ -79,7 +79,7 @@ const emit = defineEmits(["update:category"]);
 	.showMore {
 		all: unset;
 		font-size: 0.8rem;
-		color: $color-black;
+		color: $color-bg;
 		text-decoration: underline;
 		cursor: pointer;
 	}

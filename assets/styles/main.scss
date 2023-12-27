@@ -1,7 +1,7 @@
 @import "./mixins.scss";
 
-$color-black: #0e0e0e;
-$color-white: #fefefe;
+$color-bg: #fefefe;
+$color-text: #0e0e0e;
 
 html,
 body,
@@ -13,5 +13,7 @@ body,
 }
 
 body {
-	background-color: $color-white;
+	background-color: $color-bg;
+	color: $color-text;
+	overflow-y: scroll;
 }
