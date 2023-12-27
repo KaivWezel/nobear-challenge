@@ -8,7 +8,8 @@
 			<div class="location">{{ website.location.place }}</div>
 			<div class="salary">{{ vacancy.salary_indication.min }} tot {{ vacancy.salary_indication.max }}</div>
 			<div class="hours">{{ vacancy.shiftwork[0] }}</div>
-			<div class="sector">{{ website.sector?.[0] }}</div>
+			<div class="sector">{{ website.sector }}</div>
+			<div class="functie">{{ website.functie }}</div>
 		</div>
 		<div class="vacancyCard__links">
 			<nuxt-link :to="'/jobs/' + hit._id">Bekijk vacature</nuxt-link>
