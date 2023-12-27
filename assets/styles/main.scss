@@ -1,5 +1,11 @@
+@import "./mixins.scss";
+
+$color-black: #0e0e0e;
+$color-white: #fefefe;
+
 html,
-body * {
+body,
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -7,5 +13,5 @@ body * {
 }
 
 body {
-	background-color: #f3f3f3;
+	background-color: $color-white;
 }
