@@ -8,10 +8,14 @@ export default function useFiltered() {
 		const filterShift = query?.ploegendienst || [];
 		const filterSalary = Array.isArray(query.salaris) ? query.salaris : query.salaris ? [query?.salaris] : [];
 
-		const { data } = await useFetch("/api/jobs");
+		const { data } = await useFetch("https://data.pro-cluster.com/jobs", {
+			query: {
+				q: query.q,
+			},
+		});
 
 		// Filter for function
-		let temp = await data.value.jobs.hits.hits.filter((job) => {
+		let temp = await data.value.hits.hits.filter((job) => {
 			// Catergory filter || functie
 			const jobFunction = job._source.website.category;
 			const jobSector = job._source.website.sector;

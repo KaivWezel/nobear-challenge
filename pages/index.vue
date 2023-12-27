@@ -3,6 +3,7 @@
 		<div class="jobBoard" :data-scroll="!filtersActive">
 			<h1>Jobs</h1>
 			<div class="filters" :class="{ active: filtersActive }">
+				<SearchFilter @update:searchTerm="updateQuery" />
 				<CategoryFilter
 					v-for="filter in filters"
 					:category="filter.title"
@@ -13,10 +14,10 @@
 				<VacancyCard v-for="(hit, index) in pageItems" :hit="hit" :index="index" />
 			</div>
 			<div class="pagination">
-				<button v-show="page < totalPages" @click="page++">next</button>
-				<button v-show="page > 1" @click="page--">prev</button>
+				<button :class="{ active: page < totalPages }" @click="page++">next</button>
+				<button :class="{ active: page > 1 }" @click="page--">prev</button>
 			</div>
-			<button class="filterButton" @click="filtersActive = !filtersActive">Filter</button>
+			<button class="filterButton" @click="filtersActive = !filtersActive">Filters ({{ filterAmount }})</button>
 		</div>
 	</div>
 </template>
@@ -27,8 +28,9 @@ const router = useRouter();
 
 const perPage = 10;
 const page = ref(1);
-const activeQuery = ref([]);
+const activeQuery = ref({});
 const filtersActive = ref(false);
+const filterAmount = computed(() => Object.values(activeQuery.value).flat().length);
 
 const { data } = await useFetch("/api/jobs", { query: activeQuery.value });
 
@@ -39,6 +41,7 @@ const totalPages = computed(() => Math.ceil(filtered.value?.length / perPage));
 
 function updateQuery({ category, values }) {
 	activeQuery.value[category] = values;
+	console.log(activeQuery.value);
 	router.push({ query: activeQuery.value });
 }
 </script>
@@ -53,7 +56,7 @@ function updateQuery({ category, values }) {
 	left: 0;
 	overflow-y: scroll;
 	z-index: 10;
-	background-color: $color-white;
+	background-color: $color-bg;
 
 	transform: translateY(100%);
 
@@ -71,10 +74,13 @@ function updateQuery({ category, values }) {
 }
 
 .jobBoard {
-	display: grid;
+	padding: 1rem 0;
 	width: 100%;
 	height: 100vh;
-	// grid-template-columns: 1fr 3fr;
+
+	h1 {
+		text-align: center;
+	}
 }
 
 .list {
@@ -85,8 +91,28 @@ function updateQuery({ category, values }) {
 }
 
 .pagination {
+	width: 100%;
+	display: flex;
+	padding: 0.5rem 1rem;
+
+	justify-content: space-between;
+	flex-direction: row-reverse;
+
+	visibility: hidden;
+	pointer-events: none;
+
 	button {
-		display: block;
+		all: unset;
+		background-color: $color-bg;
+		color: $color-text;
+		font-size: 0.8rem;
+		border-radius: 4px;
+		padding: 0.5rem 0.75rem;
+	}
+
+	button.active {
+		visibility: visible;
+		pointer-events: auto;
 	}
 }
 
@@ -96,8 +122,8 @@ function updateQuery({ category, values }) {
 	left: 50%;
 	transform: translateX(-50%);
 
-	background-color: $color-black;
-	color: $color-white;
+	background-color: $color-text;
+	color: $color-bg;
 	border: none;
 	padding: 1rem 2rem;
 	border-radius: 4px;
