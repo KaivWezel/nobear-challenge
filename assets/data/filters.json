@@ -2,14 +2,28 @@
 	{
 		"title": "sector",
 		"values": [
-			"Voedingsmiddelen",
-			"Grafisch en drukkerij",
+			"voedingsmiddelen",
+			"grafisch en drukkerij",
 			"hout en isolatiemateriaal",
 			"machines en assemblage",
 			"rubber en kunststof",
 			"metaal",
 			"verpakking",
-			"beton en keramisch"
+			"chemie",
+			"offshore",
+			"petrochemie",
+			"verlading",
+			"automotive",
+			"papier en karton",
+			"transport en logistiek",
+			"servicetechniek",
+			"beton en keramisch",
+			"tabak",
+			"textiel en kleding",
+			"dranken",
+			"diervoeding",
+			"energie en afval",
+			"technologie"
 		]
 	},
 
