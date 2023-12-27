@@ -3,13 +3,12 @@
 		<h2 class="vacancyCard__title">{{ website.title }}</h2>
 		<span class="vacancyCard__subtitle">{{ website.subtitle }}</span>
 
-		<div class="vacancyCard__description">{{ website.intro }}</div>
+		<!-- <div class="vacancyCard__description">{{ website.intro }}</div> -->
 		<div class="vacancyCard__grid">
 			<div class="location">{{ website.location.place }}</div>
 			<div class="salary">{{ vacancy.salary_indication.min }} tot {{ vacancy.salary_indication.max }}</div>
 			<div class="hours">{{ vacancy.shiftwork[0] }}</div>
-			<div class="sector">{{ website.sector }}</div>
-			<div class="functie">{{ website.functie }}</div>
+			<div class="sector">{{ website.sector?.[0] }}</div>
 		</div>
 		<div class="vacancyCard__links">
 			<nuxt-link :to="'/jobs/' + hit._id">Bekijk vacature</nuxt-link>
@@ -29,26 +28,31 @@ const vacancy = computed(() => props.hit._source.vacancy);
 .vacancyCard {
 	display: block;
 	border: 1px solid rgba(black, 0.1);
-	padding: 2.5rem 2rem;
-	padding-right: 6rem;
+	width: 100%;
+	padding: 1.5rem 1rem;
+	// padding-right: 6rem;
 	border-radius: 4px;
 	text-decoration: none;
 	position: relative;
 	color: black;
 	background-color: white;
 
+	box-shadow: 2px 2px 10px 2px rgba(black, 0.1);
+
 	&:visited {
 		color: black;
 	}
 
 	&__title {
-		margin-bottom: 0.25rem;
+		margin-bottom: 1.5rem;
+		font-size: 1.2rem;
 	}
 
 	&__subtitle {
 		display: block;
-		font-size: 1.2rem;
+		font-size: 1rem;
 		margin-bottom: 1.5rem;
+		font-size: max(0.8rem, 10x);
 	}
 
 	&__description {

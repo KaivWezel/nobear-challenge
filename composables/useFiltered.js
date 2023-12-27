@@ -51,7 +51,6 @@ export default function useFiltered() {
 			const min_sal = jobSalary.min;
 			const max_sal = jobSalary.max;
 
-			console.log(filterSalary);
 			if (filterSalary.length && jobSalary) {
 				const filters = filterSalary.map((val) => {
 					const [min, max] = val.split("-");
