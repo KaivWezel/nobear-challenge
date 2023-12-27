@@ -35,6 +35,16 @@ export default function useFiltered() {
 			}
 		});
 
+		// Filter for shift
+		temp = temp.filter((job) => {
+			const jobShift = job._source.vacancy.shiftwork;
+			if (filterShift.length && jobShift) {
+				return jobShift.some((f) => filterShift.includes(f));
+			} else {
+				return true;
+			}
+		});
+
 		filtered.value = temp;
 	}
 

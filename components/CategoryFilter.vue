@@ -53,6 +53,8 @@ const emit = defineEmits(["update:category"]);
 </script>
 <style lang="scss">
 .filterCategory {
+	margin-bottom: 2rem;
+
 	&__title {
 		margin-bottom: 0.5rem;
 	}
