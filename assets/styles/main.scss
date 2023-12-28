@@ -17,3 +17,15 @@ body {
 	color: $color-text;
 	overflow-y: scroll;
 }
+
+.mobile-only {
+	@include desktop {
+		display: none;
+	}
+}
+
+.desktop-only {
+	@include mobile {
+		display: none;
+	}
+}
