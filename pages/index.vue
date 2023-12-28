@@ -140,7 +140,13 @@ nav {
 	padding: 0.5rem 1rem;
 
 	justify-content: space-between;
+	align-items: center;
 	flex-direction: row-reverse;
+
+	@include desktop {
+		justify-content: center;
+		gap: 3.5rem;
+	}
 
 	.pageNumbers {
 		display: flex;
