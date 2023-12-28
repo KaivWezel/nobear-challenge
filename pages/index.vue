@@ -1,7 +1,13 @@
 <template>
 	<div>
+		<nav>
+			<h2><span class="decoration">Pro</span>Industry</h2>
+		</nav>
 		<div class="jobBoard" :data-scroll="!filtersActive">
-			<h1>Jobs</h1>
+			<h1>Vind jouw droombaan!</h1>
+			<div class="searchBar">
+				<SearchFilter @update:searchTerm="updateQuery" label="Zoek een functie" />
+			</div>
 			<div class="filters" :class="{ active: filtersActive }">
 				<SearchFilter @update:searchTerm="updateQuery" />
 				<CategoryFilter
@@ -10,7 +16,7 @@
 					:values="filter.values"
 					@update:category="updateQuery" />
 			</div>
-			<div class="list">
+			<div class="list grid">
 				<VacancyCard v-for="(hit, index) in pageItems" :hit="hit" :index="index" />
 			</div>
 			<div class="pagination">
@@ -48,6 +54,21 @@ function updateQuery({ category, values }) {
 <style lang="scss">
 @import "~/assets/styles/main.scss";
 
+nav {
+	background-color: $color-text;
+	color: $color-bg;
+	padding: 1rem 2rem;
+
+	h2 {
+		text-align: center;
+		text-transform: uppercase;
+
+		.decoration {
+			color: red;
+		}
+	}
+}
+
 .filters {
 	position: fixed;
 	width: 100%;
@@ -80,6 +101,14 @@ function updateQuery({ category, values }) {
 
 	h1 {
 		text-align: center;
+		padding: 0 1rem;
+	}
+
+	.searchBar {
+		text-align: center;
+		width: 80%;
+		max-width: 800px;
+		margin: 2rem auto;
 	}
 }
 
@@ -88,6 +117,17 @@ function updateQuery({ category, values }) {
 	flex-direction: column;
 	gap: 2rem;
 	padding: 0.5rem 1rem;
+
+	&.grid {
+		display: grid;
+		gap: 2rem;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+		@include desktop {
+			justify-content: center;
+			grid-template-columns: repeat(2, minmax(400px, 600px));
+		}
+	}
 }
 
 .pagination {
