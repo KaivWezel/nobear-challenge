@@ -1,7 +1,7 @@
 <template>
 	<div class="searchField">
 		<label for="term">{{ label }}</label>
-		<input ref="inputSearch" type="text" id="term" v-model="searchTerm" />
+		<input ref="inputSearch" type="text" placeholder="Type hier..." id="term" v-model="searchTerm" />
 	</div>
 </template>
 <script setup>
@@ -53,9 +53,17 @@ watch(() => route.query, setSearchValue);
 		font-size: 1.1rem;
 		border: none;
 		background: $color-bg;
-		box-shadow: 1px 1px 10px 1px rgba(black, 0.1) inset;
+		box-shadow: 1px 1px 4px 1px rgba(black, 0.1) inset;
+		border-radius: 4px;
+		border: 1px solid rgba($color-text, 0.2);
 		padding: 0.5rem;
 		color: $color-text;
+		transition: border 0.2s;
+
+		&:focus,
+		&:focus-visible {
+			outline: 2px solid rgba($color-text, 0.8);
+		}
 	}
 }
 </style>

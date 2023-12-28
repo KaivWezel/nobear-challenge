@@ -41,7 +41,7 @@ const vacancy = computed(() => props.hit._source.vacancy);
 
 	box-shadow: 3px 3px 10px 4px rgba($color-text, 0.1);
 
-	transition: all 0.3s ease-out;
+	transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 
 	&:hover {
 		border: 1px solid rgba(red, 0.5);
@@ -112,7 +112,7 @@ const vacancy = computed(() => props.hit._source.vacancy);
 				top: 50%;
 				transform: translate(1rem, -50%) rotate(45deg);
 
-				transition: transform 0.2s cubic-bezier(0.5, 1, 0.89, 1);
+				transition: transform 0.2s cubic-bezier(0.25, 1, 0.5, 1);
 			}
 		}
 	}
