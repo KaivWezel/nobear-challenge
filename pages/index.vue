@@ -21,6 +21,11 @@
 			</div>
 			<div class="pagination">
 				<button :class="{ active: page < totalPages }" @click="page++">next</button>
+				<ClientOnly>
+					<div class="pageNumbers">
+						<span v-for="i in totalPages" :class="{ active: page === i }" @click="page = i">{{ i }}</span>
+					</div>
+				</ClientOnly>
 				<button :class="{ active: page > 1 }" @click="page--">prev</button>
 			</div>
 			<button class="filterButton" @click="filtersActive = !filtersActive">Filters ({{ filterAmount }})</button>
@@ -96,8 +101,7 @@ nav {
 
 .jobBoard {
 	padding: 1rem 0;
-	width: 100%;
-	height: 100vh;
+	padding-bottom: 6rem;
 
 	h1 {
 		text-align: center;
@@ -138,16 +142,37 @@ nav {
 	justify-content: space-between;
 	flex-direction: row-reverse;
 
-	visibility: hidden;
-	pointer-events: none;
+	.pageNumbers {
+		display: flex;
+		gap: 0.5rem;
+
+		span.active {
+			color: red;
+		}
+
+		span {
+			cursor: pointer;
+		}
+	}
 
 	button {
 		all: unset;
 		background-color: $color-bg;
-		color: $color-text;
+		color: red;
+		outline: 1px solid red;
 		font-size: 0.8rem;
 		border-radius: 4px;
 		padding: 0.5rem 0.75rem;
+		transition: all 0.2s ease-out;
+		visibility: hidden;
+
+		cursor: pointer;
+
+		&:hover {
+			background-color: red;
+			color: $color-bg;
+			outline: none;
+		}
 	}
 
 	button.active {
